@@ -1,59 +1,65 @@
 import time
 from selenium import webdriver
-from selenium.webdriver import ActionChains
+from selenium.common.exceptions import TimeoutException
+from selenium.webdriver.common.action_chains import ActionChains
 
 from case.models.BasePage import BasePage
 
 class LoginPage(BasePage):
 
-    switch_login_mode = ('id', 'J_Quick2Static')  #切换登录模式按钮
-    login_btn = ('id', 'J_SubmitStatic')
-    username = ('id', 'TPL_username_1')
-    psw = ('id', 'TPL_password_1')
-    form_item = ('id', 'J_Form')
-    scan_tip = ('class name', 'ft-gray')        #二维码下方"扫一扫登录"文字
-    slider = ('id', 'nc_1_n1z')
+    switch_login_mode = ('id', 'J_Quick2Static')  # 切换登录模式按钮
+    username = ('id', 'TPL_username_1')           # 用户名输入框
+    psw = ('id', 'TPL_password_1')                # 密码输入框
+    form_item = ('id', 'J_Form')                  # 表单ID
+    scan_tip = ('class name', 'ft-gray')          # 二维码下方"扫一扫登录"文字
+    slider = ('id', 'nc_1_n1z')                   # 滑块
 
-    SCANLOGINTITLE = '手机扫码，安全登录'
-    LOGINFLAG = False              #密码和用户名登陆方式
+    LOGINFLAG = False              # 登陆方式，True为用户名密码登录，False为扫码登录
 
     def switch_to_psw_login(self):
-        print("switch")
-        '''切换到用户名密码登陆框'''
+        # 切换到用户名密码登陆框
         self.click(LoginPage.switch_login_mode)
         LoginPage.LOGINFLAG = True
 
     def switch_model(self):
-        result = self.find_element(LoginPage.scan_tip)
-        print(result)
-        '''二维码存在，则需要点击切换登陆方式'''
-        if result:
+        # 查找二维码图片，存在则需要切换登陆方式为用户名、密码登录
+        scan_img = self.find_element(LoginPage.scan_tip)
+        if scan_img:
             self.switch_to_psw_login()
 
     def send_name(self, name):
-        print('send_name')
-        if LoginPage.LOGINFLAG==False: self.switch_model()
+        # 输入用户名
+        # 首先判断当前是否为用户名密码登录方式，不是则需要切换登录方式
+        if LoginPage.LOGINFLAG == False: self.switch_model()
         self.sendKeys(LoginPage.username, name)
+        print('send username sucessfully!!!')
 
     def send_psw(self, psw):
-        print('send_psw')
-        if LoginPage.LOGINFLAG==False: self.switch_model()
+        # 输入密码
+        # 首先判断当前是否为用户名密码登录方式，不是则需要切换登录方式
+        if LoginPage.LOGINFLAG == False: self.switch_model()
         self.sendKeys(LoginPage.psw, psw)
+        print('send password sucessfully!!!')
+
+    def ACTION_DRAG(self, element):
+        # 执行拖动滑动块的动作
+        print('action_drag')
+        action = ActionChains(driver)
+        action.click_and_hold(element).move_by_offset(258, 0).perform()
 
     def dragSlider(self):
-        '''不能触发验证通过的逻辑，但是可以界面演示拖动效果'''
-        js1 = 'document.getElementById("nc_1__bg").setAttribute("style","width: 300px;");' \
-             'document.getElementById("nc_1_n1z").setAttribute("style","left: 300;");'
-        self.driver.execute_script(js1)
-        time.sleep(1)
-        self.driver.execute_script(js2)
-        ActionChains(self.driver).move_to_element(self.find_element(LoginPage.switch_login_mode)).perform()
+        # 判断滑动条是否存在,存在则需要拖动滑块
+        try:
+            slider = self.find_element(LoginPage.slider)
+            self.ACTION_DRAG(slider)
+        except TimeoutException:
+            print("没有滑动验证")
+
 
     def login(self):
-        slider = self.find_element(LoginPage.slider)
-        if slider:
-            self.dragSlider()
-        time.sleep(2)
+        # 登录
+        self.dragSlider()
+        time.sleep(0.05)
         self.find_element(LoginPage.form_item).submit()
 
 
@@ -64,8 +70,6 @@ if __name__ == "__main__":
     logindriver = LoginPage(driver)
     logindriver.open("https://login.taobao.com")
     logindriver.send_name("")
-    time.sleep(2)
     logindriver.send_psw("")
-    time.sleep(2)
     logindriver.login()
 
