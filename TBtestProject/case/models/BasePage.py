@@ -7,7 +7,7 @@ class BasePage(object):
 
     '''基于selenium二次封装'''
 
-    MAXTIMEOUT = 6      # 设置最大超时时间为10s
+    MAXTIMEOUT = 8      # 设置最大超时时间为10s
     MINTIMEOUT = 3       # 设置最小超时时间为10s
     INTERVAL = 0.5    # 设置每隔8秒查找一次元素
 
@@ -51,6 +51,8 @@ class BasePage(object):
             return True
         else:
             return False
+    def get_screenshot(self, filename):
+        self.driver.get_screenshot_as_file(filename)
 
 if __name__ == "__main__":
     driver = webdriver.Chrome()

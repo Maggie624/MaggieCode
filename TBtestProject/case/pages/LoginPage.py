@@ -5,6 +5,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 
 from case.models.BasePage import BasePage
 
+'''登录页面'''
 class LoginPage(BasePage):
 
     switch_login_mode = ('id', 'J_Quick2Static')  # 切换登录模式按钮
@@ -43,9 +44,9 @@ class LoginPage(BasePage):
 
     def ACTION_DRAG(self, element):
         # 执行拖动滑动块的动作
-        print('action_drag')
-        action = ActionChains(driver)
+        action = ActionChains(self.driver)
         action.click_and_hold(element).move_by_offset(258, 0).perform()
+        print('drag slider sucessfully!!!')
 
     def dragSlider(self):
         # 判断滑动条是否存在,存在则需要拖动滑块
@@ -59,9 +60,8 @@ class LoginPage(BasePage):
     def login(self):
         # 登录
         self.dragSlider()
-        time.sleep(0.05)
+        time.sleep(0.1)
         self.find_element(LoginPage.form_item).submit()
-
 
 
 if __name__ == "__main__":
