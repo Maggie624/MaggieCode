@@ -1,4 +1,4 @@
-from case.models.BasePage import BasePage
+from TBtestProject.case.models.BasePage import BasePage
 
 '''我的淘宝页面'''
 class MyTbPage(BasePage):

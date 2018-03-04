@@ -1,0 +1,50 @@
+"""
+登录和退出方法
+"""
+from selenium import webdriver
+
+from TBtestProject.case.pages.LoginPage import LoginPage
+
+class Login():
+
+    DEFAULT_NAME = ''
+    DEFAULT_PSW = ''
+    cookies = []
+
+    AUTO_IN = False          # 是否可以实现Cookies登录的标识位
+
+    # 登 录(常规流程)
+    @classmethod
+    def login(cls, driver, username=DEFAULT_NAME, password=DEFAULT_PSW):
+        mydriver = LoginPage(driver)
+        mydriver.open("https://login.taobao.com")
+        mydriver.send_name(username)
+        mydriver.send_psw(password)
+        mydriver.login()
+
+    @classmethod
+    def pre_Auto(cls, driver):
+        Login.cookies = driver.get_cookies()
+        print("===============cookies=================")
+        print(Login.cookies)
+        print("===============cookies=================")
+        Login.AUTO_IN = True
+
+    # Cookies登录
+    @classmethod
+    def login_auto(cls, driver):
+
+        if not Login.AUTO_IN:
+            cls.login(driver)
+            return
+        for cookie in Login.cookies:
+            driver.add_cookie({'name': cookie['name'], 'value': cookie['value']})
+        driver.refresh()
+
+    # 退 出
+    @classmethod
+    def logout(cls):
+        pass
+
+
+

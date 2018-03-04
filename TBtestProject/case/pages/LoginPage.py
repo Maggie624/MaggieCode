@@ -3,7 +3,7 @@ from selenium import webdriver
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.action_chains import ActionChains
 
-from case.models.BasePage import BasePage
+from TBtestProject.case.models.BasePage import BasePage
 
 '''登录页面'''
 class LoginPage(BasePage):
@@ -45,7 +45,8 @@ class LoginPage(BasePage):
     def ACTION_DRAG(self, element):
         # 执行拖动滑动块的动作
         action = ActionChains(self.driver)
-        action.click_and_hold(element).move_by_offset(258, 0).perform()
+        action.click_and_hold(element).perform()
+        action.move_by_offset(258, 0).perform()
         print('drag slider sucessfully!!!')
 
     def dragSlider(self):
@@ -55,7 +56,6 @@ class LoginPage(BasePage):
             self.ACTION_DRAG(slider)
         except TimeoutException:
             print("没有滑动验证")
-
 
     def login(self):
         # 登录
