@@ -1,16 +1,15 @@
-import time
+import unittest
+
 from selenium import webdriver
 
-from TBtestProject.case.models.MyTbPage import MyTbPage
 from TBtestProject.case.pages.LoginPage import LoginPage
-import unittest
-from TBtestProject.case.models.publicFunc import Login as pF
+from TBtestProject.case.pages.MyTbPage import MyTbPage
 
 
 class Login(unittest.TestCase):
 
-    username = ''
-    password = ''
+    username = '18521036297'
+    password = 'cmd15fzwakkn1412'
 
     @classmethod
     def setUpClass(cls):
@@ -35,7 +34,8 @@ class Login(unittest.TestCase):
 
     @classmethod
     def tearDownClass(cls):
-        cls.driver.close()
+        #cls.driver.close()
+        pass
 
 if __name__ == '__main__':
     unittest.main()

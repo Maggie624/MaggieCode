@@ -1,14 +1,14 @@
-"""
-登录和退出方法
-"""
 from selenium import webdriver
 
 from TBtestProject.case.pages.LoginPage import LoginPage
 
 class Login():
+    """
+    Usage: 封装登录页面需要调用的方法
+    """
 
-    DEFAULT_NAME = ''
-    DEFAULT_PSW = ''
+    DEFAULT_NAME = '18521036297'
+    DEFAULT_PSW = 'cmd15fzwakkn1412'
     cookies = []
 
     AUTO_IN = False          # 是否可以实现Cookies登录的标识位

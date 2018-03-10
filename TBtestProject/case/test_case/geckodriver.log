@@ -1262,3 +1262,524 @@ See /usr/include/servers/bootstrap_defs.h for the error codes.
 1520177748507	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483661"
 1520177748639	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://i.taobao.com/my_taobao.htm?nekot=wuTEu7%2FJ3bY%3D1520177743915"
 1520177749679	Marionette	DEBUG	Received DOM event "pageshow" for "https://i.taobao.com/my_taobao.htm?nekot=wuTEu7%2FJ3bY%3D1520177743915"
+1520429296445	geckodriver	INFO	geckodriver 0.19.1
+1520429296536	geckodriver	INFO	Listening on 127.0.0.1:53247
+1520429297553	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/md/3_f8mgx13pqd2pcxj_qb5mk00000gn/T/rust_mozprofile.U1VXnnlzLP3i"
+1520429298254	Marionette	INFO	Enabled via --marionette
+2018-03-07 21:28:19.103 plugin-container[1788:170231] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9e37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1520429299558	Marionette	INFO	Listening on port 53258
+1520429299657	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520429299714	Marionette	DEBUG	Register listener.js for window 2147483649
+1520429299731	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1520429299855	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1520429299855	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1520429300329	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://login.taobao.com/"
+1520429301418	Marionette	DEBUG	Received DOM event "pageshow" for "https://login.taobao.com/"
+1520429305218	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1520429315976	geckodriver	INFO	geckodriver 0.19.1
+1520429316033	geckodriver	INFO	Listening on 127.0.0.1:53376
+1520429317053	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/md/3_f8mgx13pqd2pcxj_qb5mk00000gn/T/rust_mozprofile.HMA189p1xpXc"
+1520429317502	Marionette	INFO	Enabled via --marionette
+2018-03-07 21:28:38.273 plugin-container[1799:170696] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9d0b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1520429318784	Marionette	INFO	Listening on port 53387
+1520429318822	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520429318873	Marionette	DEBUG	Register listener.js for window 2147483649
+1520429318893	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1520429319292	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1520429319292	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1520429319975	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://login.taobao.com/"
+1520429321427	Marionette	DEBUG	Received DOM event "pageshow" for "https://login.taobao.com/"
+1520429325201	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1520429476872	geckodriver	INFO	geckodriver 0.19.1
+1520429476929	geckodriver	INFO	Listening on 127.0.0.1:53508
+1520429477950	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/md/3_f8mgx13pqd2pcxj_qb5mk00000gn/T/rust_mozprofile.pyiApiYTrN0F"
+1520429478403	Marionette	INFO	Enabled via --marionette
+2018-03-07 21:31:19.169 plugin-container[1818:173077] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa037, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1520429479590	Marionette	INFO	Listening on port 53520
+1520429479606	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520429479658	Marionette	DEBUG	Register listener.js for window 2147483649
+1520429479686	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1520429480043	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1520429480044	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1520429480880	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://login.taobao.com/"
+1520429482107	Marionette	DEBUG	Received DOM event "pageshow" for "https://login.taobao.com/"
+1520429485872	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1520429504162	geckodriver	INFO	geckodriver 0.19.1
+1520429504217	geckodriver	INFO	Listening on 127.0.0.1:53635
+1520429505244	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/md/3_f8mgx13pqd2pcxj_qb5mk00000gn/T/rust_mozprofile.IlNGpCARVRxb"
+1520429505672	Marionette	INFO	Enabled via --marionette
+2018-03-07 21:31:46.402 plugin-container[1828:174005] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9e3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1520429506823	Marionette	INFO	Listening on port 53646
+1520429506905	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520429506957	Marionette	DEBUG	Register listener.js for window 2147483649
+1520429506972	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1520429507500	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1520429507501	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1520429508293	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://login.taobao.com/"
+1520429509867	Marionette	DEBUG	Received DOM event "pageshow" for "https://login.taobao.com/"
+1520429513645	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+[Child 1828, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+1520429519588	geckodriver	INFO	geckodriver 0.19.1
+1520429519650	geckodriver	INFO	Listening on 127.0.0.1:53773
+1520429520666	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/md/3_f8mgx13pqd2pcxj_qb5mk00000gn/T/rust_mozprofile.sYgrfUGnop8Y"
+1520429521145	Marionette	INFO	Enabled via --marionette
+2018-03-07 21:32:01.873 plugin-container[1838:175047] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa037, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1520429522296	Marionette	INFO	Listening on port 53784
+1520429522337	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520429522391	Marionette	DEBUG	Register listener.js for window 2147483649
+1520429522416	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1520429523088	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1520429523089	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1520429523814	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://login.taobao.com/"
+1520429524987	Marionette	DEBUG	Received DOM event "pageshow" for "https://login.taobao.com/"
+1520429528762	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1520429713976	geckodriver	INFO	geckodriver 0.19.1
+1520429714032	geckodriver	INFO	Listening on 127.0.0.1:54100
+1520429715052	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/md/3_f8mgx13pqd2pcxj_qb5mk00000gn/T/rust_mozprofile.ZzYdiyVrIqub"
+1520429715466	Marionette	INFO	Enabled via --marionette
+2018-03-07 21:35:16.118 plugin-container[1870:177499] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa037, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1520429716502	Marionette	INFO	Listening on port 54111
+1520429716527	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520429716579	Marionette	DEBUG	Register listener.js for window 2147483649
+1520429716618	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1520429717214	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1520429717215	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1520429717987	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://login.taobao.com/"
+1520429720375	Marionette	DEBUG	Received DOM event "pageshow" for "https://login.taobao.com/"
+1520429724158	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1520429835833	geckodriver	INFO	geckodriver 0.19.1
+1520429835888	geckodriver	INFO	Listening on 127.0.0.1:54230
+1520429836907	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/md/3_f8mgx13pqd2pcxj_qb5mk00000gn/T/rust_mozprofile.wvkBaATHC0Je"
+1520429837322	Marionette	INFO	Enabled via --marionette
+2018-03-07 21:37:17.992 plugin-container[1890:178343] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa033, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1520429838446	Marionette	INFO	Listening on port 54241
+1520429838475	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520429838528	Marionette	DEBUG	Register listener.js for window 2147483649
+1520429838543	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1520429838640	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1520429838640	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1520429838989	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://login.taobao.com/"
+1520429840863	Marionette	DEBUG	Received DOM event "pageshow" for "https://login.taobao.com/"
+1520429844655	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1520430053315	geckodriver	INFO	geckodriver 0.19.1
+1520430053378	geckodriver	INFO	Listening on 127.0.0.1:54355
+1520430054396	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/md/3_f8mgx13pqd2pcxj_qb5mk00000gn/T/rust_mozprofile.70UcDR8ttiKa"
+1520430054818	Marionette	INFO	Enabled via --marionette
+2018-03-07 21:40:55.493 plugin-container[1906:179842] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9e37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1520430055894	Marionette	INFO	Listening on port 54366
+1520430055967	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520430056018	Marionette	DEBUG	Register listener.js for window 2147483649
+1520430056044	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1520430056190	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1520430056191	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1520430056580	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://login.taobao.com/"
+1520430057308	Marionette	DEBUG	Received DOM event "pageshow" for "https://login.taobao.com/"
+1520430061088	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1520430101312	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1520430101312	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1520430103678	geckodriver	INFO	geckodriver 0.19.1
+1520430103732	geckodriver	INFO	Listening on 127.0.0.1:54477
+1520430104759	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/md/3_f8mgx13pqd2pcxj_qb5mk00000gn/T/rust_mozprofile.GIP5kzx6yUKZ"
+1520430105193	Marionette	INFO	Enabled via --marionette
+2018-03-07 21:41:45.883 plugin-container[1914:180851] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9e37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1520430106314	Marionette	INFO	Listening on port 54488
+1520430106320	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520430106372	Marionette	DEBUG	Register listener.js for window 2147483649
+1520430106393	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1520430106517	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1520430106517	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1520430107305	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://login.taobao.com/"
+1520430108801	Marionette	DEBUG	Received DOM event "pageshow" for "https://login.taobao.com/"
+1520430112591	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1520430145326	geckodriver	INFO	geckodriver 0.19.1
+1520430145387	geckodriver	INFO	Listening on 127.0.0.1:54592
+1520430146419	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/md/3_f8mgx13pqd2pcxj_qb5mk00000gn/T/rust_mozprofile.n4QFHAatRcuv"
+1520430146853	Marionette	INFO	Enabled via --marionette
+2018-03-07 21:42:27.539 plugin-container[1932:181561] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1520430147930	Marionette	INFO	Listening on port 54603
+1520430147975	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520430148025	Marionette	DEBUG	Register listener.js for window 2147483649
+1520430148052	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1520430148202	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1520430148202	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1520430148559	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://login.taobao.com/"
+1520430149546	Marionette	DEBUG	Received DOM event "pageshow" for "https://login.taobao.com/"
+1520430153340	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1520430280904	geckodriver	INFO	geckodriver 0.19.1
+1520430280989	geckodriver	INFO	Listening on 127.0.0.1:54739
+1520430281977	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/md/3_f8mgx13pqd2pcxj_qb5mk00000gn/T/rust_mozprofile.aC7jNlUsyiUT"
+1520430282453	Marionette	INFO	Enabled via --marionette
+2018-03-07 21:44:43.329 plugin-container[1943:183612] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9e37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1520430283785	Marionette	INFO	Listening on port 54750
+1520430283867	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520430283914	Marionette	DEBUG	Register listener.js for window 2147483649
+1520430283943	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1520430284492	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1520430284493	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1520430285158	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://login.taobao.com/"
+1520430286930	Marionette	DEBUG	Received DOM event "pageshow" for "https://login.taobao.com/"
+1520430290735	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1520430321845	geckodriver	INFO	geckodriver 0.19.1
+1520430321903	geckodriver	INFO	Listening on 127.0.0.1:54890
+1520430322936	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/md/3_f8mgx13pqd2pcxj_qb5mk00000gn/T/rust_mozprofile.IegGfVm9Wz3m"
+1520430323424	Marionette	INFO	Enabled via --marionette
+2018-03-07 21:45:24.176 plugin-container[1952:185113] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9e2f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1520430324688	Marionette	INFO	Listening on port 54901
+1520430324732	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520430324779	Marionette	DEBUG	Register listener.js for window 2147483649
+1520430324818	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1520430324929	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1520430324930	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1520430325347	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://login.taobao.com/"
+1520430326558	Marionette	DEBUG	Received DOM event "pageshow" for "https://login.taobao.com/"
+1520430330354	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1520430348245	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1520430348247	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1520430349953	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1520430349955	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1520430351694	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1520430351695	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1520430353611	geckodriver	INFO	geckodriver 0.19.1
+1520430353676	geckodriver	INFO	Listening on 127.0.0.1:55026
+1520430354699	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/md/3_f8mgx13pqd2pcxj_qb5mk00000gn/T/rust_mozprofile.82A7EAiXiOBr"
+1520430355154	Marionette	INFO	Enabled via --marionette
+2018-03-07 21:45:55.840 plugin-container[1959:185937] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa037, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1520430356300	Marionette	INFO	Listening on port 55037
+1520430356357	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520430356405	Marionette	DEBUG	Register listener.js for window 2147483649
+1520430356418	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1520430356773	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1520430356773	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1520430357522	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://login.taobao.com/"
+1520430360487	Marionette	DEBUG	Received DOM event "pageshow" for "https://login.taobao.com/"
+1520430364273	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1520430419071	geckodriver	INFO	geckodriver 0.19.1
+1520430419130	geckodriver	INFO	Listening on 127.0.0.1:55157
+1520430420154	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/md/3_f8mgx13pqd2pcxj_qb5mk00000gn/T/rust_mozprofile.OxIiLRebWtFT"
+1520430420589	Marionette	INFO	Enabled via --marionette
+2018-03-07 21:47:01.270 plugin-container[1973:187020] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9e37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1520430421678	Marionette	INFO	Listening on port 55168
+1520430421715	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520430421770	Marionette	DEBUG	Register listener.js for window 2147483649
+1520430421787	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1520430422156	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1520430422156	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1520430423083	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://login.taobao.com/"
+1520430424291	Marionette	DEBUG	Received DOM event "pageshow" for "https://login.taobao.com/"
+1520430428078	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1520430444880	geckodriver	INFO	geckodriver 0.19.1
+1520430444941	geckodriver	INFO	Listening on 127.0.0.1:55262
+1520430445958	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/md/3_f8mgx13pqd2pcxj_qb5mk00000gn/T/rust_mozprofile.jvnEfy9ZnXYj"
+1520430446379	Marionette	INFO	Enabled via --marionette
+2018-03-07 21:47:27.065 plugin-container[1984:187771] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9e37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1520430447468	Marionette	INFO	Listening on port 55273
+1520430447524	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520430447570	Marionette	DEBUG	Register listener.js for window 2147483649
+1520430447585	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1520430447943	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1520430447944	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1520430448685	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://login.taobao.com/"
+1520430450898	Marionette	DEBUG	Received DOM event "pageshow" for "https://login.taobao.com/"
+1520430454692	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 26: SyntaxError: expected expression, got '<'
+console.error: 
+  stylesheets actor: fetch failed for https://g.alicdn.com/tp/bought/3.3.1/style.css, using system principal instead.
+*************************
+A coding exception was thrown in a Promise resolution callback.
+See https://developer.mozilla.org/Mozilla/JavaScript_code_modules/Promise.jsm/Promise
+
+Full message: TypeError: this._containers is null
+Full stack: getContainer@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:473:5
+showNode/<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:1135:30
+process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:922:23
+walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:806:7
+scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:742:11
+
+*************************
+2018-03-07 21:55:38.505 plugin-container[2032:192199] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9b2b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_mac_82990d4.js, line 4: ReferenceError: c is not defined
+2018-03-07 22:15:44.200 plugin-container[2293:204187] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9c3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 410: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 410: TypeError: quads is undefined
+onPacket threw an exception: Error: Server did not specify an actor, dropping packet: {"error":"unknownError","message":"error occurred while processing 'detach: TypeError: this.walker is null\nStack: get conn@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/inspector.js:214:5\nparent@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:775:5\ndestroy@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:860:18\ndestroy@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:949:5\ndestroy@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/inspector.js:223:5\ndestroy@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:877:9\ndestroy@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:949:5\ndestroy@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/styles.js:88:5\ndestroy@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:877:9\ndestroy@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:949:5\ndestroy@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/inspector.js:2724:5\nremoveActor@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/common.js:261:7\nAPDestroy@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/common.js:224:7\nremoveActorPool/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1570:27\nremoveActorPool@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1570:9\n_detach@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:917:7\nonDetach@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:959:10\nonPacket@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1792:15\nreceiveMessage@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/transport.js:761:7\nLine: 214, column: 5"}
+Stack: onPacket@resource://devtools/shared/base-loader.js -> resource://devtools/shared/client/main.js:953:9
+send/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/transport.js:570:13
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 953, column: 9
+console.error: 
+  onPacket threw an exception: Error: Server did not specify an actor, dropping packet: {"error":"unknownError","message":"error occurred while processing 'detach: TypeError: this.walker is null\nStack: get conn@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/inspector.js:214:5\nparent@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:775:5\ndestroy@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:860:18\ndestroy@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:949:5\ndestroy@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/inspector.js:223:5\ndestroy@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:877:9\ndestroy@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:949:5\ndestroy@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/styles.js:88:5\ndestroy@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:877:9\ndestroy@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:949:5\ndestroy@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/inspector.js:2724:5\nremoveActor@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/common.js:261:7\nAPDestroy@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/common.js:224:7\nremoveActorPool/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1570:27\nremoveActorPool@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1570:9\n_detach@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:917:7\nonDetach@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:959:10\nonPacket@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1792:15\nreceiveMessage@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/transport.js:761:7\nLine: 214, column: 5"}
+Stack: onPacket@resource://devtools/shared/base-loader.js -> resource://devtools/shared/client/main.js:953:9
+send/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/transport.js:570:13
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 953, column: 9
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: chrome://devtools/content/inspector/inspector.js, line 168: TypeError: this._toolbox is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: chrome://devtools/content/inspector/inspector.js, line 168: TypeError: this._toolbox is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: chrome://devtools/content/inspector/inspector.js, line 168: TypeError: this._toolbox is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: toolbox is null
+Full stack: exports.getHighlighterUtils/exported.startPicker<@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/toolbox-highlighter-utils.js:121:5
+_run@resource://devtools/shared/base-loader.js -> resource://devtools/shared/task.js:310:39
+TaskImpl@resource://devtools/shared/base-loader.js -> resource://devtools/shared/task.js:272:3
+asyncFunction@resource://devtools/shared/base-loader.js -> resource://devtools/shared/task.js:246:14
+spawn@resource://devtools/shared/base-loader.js -> resource://devtools/shared/task.js:160:12
+_handleResultValue@resource://devtools/shared/base-loader.js -> resource://devtools/shared/task.js:379:15
+_run@resource://devtools/shared/base-loader.js -> resource://devtools/shared/task.js:318:13
+TaskImpl@resource://devtools/shared/base-loader.js -> resource://devtools/shared/task.js:272:3
+asyncFunction@resource://devtools/shared/base-loader.js -> resource://devtools/shared/task.js:246:14
+exports.getHighlighterUtils/exported.togglePicker@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/toolbox-highlighter-utils.js:101:12
+onkey@resource://devtools/shared/base-loader.js -> resource://devtools/client/definitions.js:87:5
+fireCustomKey@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/toolbox.js:999:7
+selectToolCommand@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/devtools-browser.js:227:7
+createToolMenuElements/oncommand<@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/browser-menus.js:79:5
+fillSubviewFromMenuItems/<@resource:///modules/CustomizableWidgets.jsm:116:11
+
+*************************
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: toolbox is null
+Full stack: exports.getHighlighterUtils/exported.startPicker<@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/toolbox-highlighter-utils.js:121:5
+_run@resource://devtools/shared/base-loader.js -> resource://devtools/shared/task.js:310:39
+TaskImpl@resource://devtools/shared/base-loader.js -> resource://devtools/shared/task.js:272:3
+asyncFunction@resource://devtools/shared/base-loader.js -> resource://devtools/shared/task.js:246:14
+spawn@resource://devtools/shared/base-loader.js -> resource://devtools/shared/task.js:160:12
+_handleResultValue@resource://devtools/shared/base-loader.js -> resource://devtools/shared/task.js:379:15
+_run@resource://devtools/shared/base-loader.js -> resource://devtools/shared/task.js:318:13
+TaskImpl@resource://devtools/shared/base-loader.js -> resource://devtools/shared/task.js:272:3
+asyncFunction@resource://devtools/shared/base-loader.js -> resource://devtools/shared/task.js:246:14
+exports.getHighlighterUtils/exported.togglePicker@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/toolbox-highlighter-utils.js:101:12
+onkey@resource://devtools/shared/base-loader.js -> resource://devtools/client/definitions.js:87:5
+fireCustomKey@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/toolbox.js:999:7
+selectToolCommand@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/devtools-browser.js:227:7
+createToolMenuElements/oncommand<@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/browser-menus.js:79:5
+fillSubviewFromMenuItems/<@resource:///modules/CustomizableWidgets.jsm:116:11
+
+*************************
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: chrome://devtools/content/inspector/inspector.js, line 168: TypeError: this._toolbox is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: chrome://devtools/content/inspector/inspector.js, line 168: TypeError: this._toolbox is null
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: deck is null
+Full stack: _refreshConsoleDisplay@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/toolbox.js:923:7
+selectTool@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/toolbox.js:1791:5
+DevTools.prototype.showToolbox<@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/devtools.js:461:15
+_run@resource://devtools/shared/base-loader.js -> resource://devtools/shared/task.js:310:39
+TaskImpl@resource://devtools/shared/base-loader.js -> resource://devtools/shared/task.js:272:3
+asyncFunction@resource://devtools/shared/base-loader.js -> resource://devtools/shared/task.js:246:14
+selectToolCommand@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/devtools-browser.js:237:7
+createToolMenuElements/oncommand<@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/browser-menus.js:79:5
+fillSubviewFromMenuItems/<@resource:///modules/CustomizableWidgets.jsm:116:11
+
+*************************
+Handler function threw an exception: TypeError: this.threadActor is null
+Stack: exit@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:509:7
+ContentActor.prototype.exit@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/childtab.js:70:3
+destroy@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:495:5
+removeActor@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/common.js:261:7
+APDestroy@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/common.js:224:7
+onClosed/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1892:35
+onClosed@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1892:5
+close@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/transport.js:756:7
+close@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1509:7
+onDisconnect<@resource://devtools/server/child.js:107:7
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 509, column: 7
+console.error: 
+  Handler function threw an exception: TypeError: this.threadActor is null
+Stack: exit@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:509:7
+ContentActor.prototype.exit@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/childtab.js:70:3
+destroy@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js:495:5
+removeActor@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/common.js:261:7
+APDestroy@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/common.js:224:7
+onClosed/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1892:35
+onClosed@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1892:5
+close@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/transport.js:756:7
+close@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1509:7
+onDisconnect<@resource://devtools/server/child.js:107:7
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 509, column: 7
+2018-03-07 22:23:23.364 plugin-container[2355:208573] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9e37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-03-07 22:30:50.212 plugin-container[2398:211729] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa633, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+console.error: 
+  Message: TypeError: ele.ownerGlobal is null
+  Stack:
+    findCssSelector@resource://gre/modules/css-selector.js:59:7
+getUniqueSelector@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/inspector.js:645:12
+handler@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1106:19
+onPacket@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1792:15
+receiveMessage@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/transport.js:761:7
+
+findCssSelector@resource://gre/modules/css-selector.js:59:7
+getUniqueSelector@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/inspector.js:645:12
+handler@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1106:19
+onPacket@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1792:15
+receiveMessage@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/transport.js:761:7
+console.error: 
+  Message: TypeError: doc.documentElement is null
+  Stack:
+    supportsHighlighters@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/inspector.js:2931:9
+handler@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1106:19
+onPacket@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1792:15
+receiveMessage@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/transport.js:761:7
+
+supportsHighlighters@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/inspector.js:2931:9
+handler@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1106:19
+onPacket@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1792:15
+receiveMessage@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/transport.js:761:7
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 26: SyntaxError: expected expression, got '<'
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 26: SyntaxError: expected expression, got '<'
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=ul%20li%E7%BB%84%E6%88%90%E7%9A%84%E4%B8%8B%E6%8B%89%E6%A1%86%E6%80%8E%E4%B9%88ton&json=1&p=3&sid=1455_22534_21108&bs=%E8%B0%B7%E6%AD%8C%E7%BF%BB%E8%AF%91&csor=16&pwd=ul%20li%E7%BB%84%E6%88%90%E7%9A%84%E4%B8%8B%E6%8B%89%E6%A1%86%E6%80%8E%E4%B9%88to&cb=jQuery1102006861076059770099_1520433062027&_=1520433062082, line 1: TypeError: jQuery1102006861076059770099_1520433062027 is not a function
+JavaScript warning: http://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://csdnimg.cn/rabbit/exposure-click/main-1.0.2.js, line 556: unreachable code after return statement
+JavaScript warning: http://csdnimg.cn/rabbit/exposure-click/main-1.0.2.js, line 556: unreachable code after return statement
+JavaScript error: http://bdimg.share.baidu.com/static/api/js/trans/logger.js?v=d16ec0e3.js, line 1: TypeError: n.ajax.request is not a function
+1520518308985	geckodriver	INFO	geckodriver 0.19.1
+1520518309047	geckodriver	INFO	Listening on 127.0.0.1:57538
+1520518310073	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/md/3_f8mgx13pqd2pcxj_qb5mk00000gn/T/rust_mozprofile.qMGlDKhooc3E"
+1520518310680	Marionette	INFO	Enabled via --marionette
+2018-03-08 22:11:51.475 plugin-container[2659:250305] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9e33, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1520518311930	Marionette	INFO	Listening on port 57549
+1520518312040	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520518312086	Marionette	DEBUG	Register listener.js for window 2147483649
+1520518312125	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1520518312223	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1520518312224	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1520518312688	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://login.taobao.com/"
+1520518313652	Marionette	DEBUG	Received DOM event "pageshow" for "https://login.taobao.com/"
+1520518317439	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1520518343879	geckodriver	INFO	geckodriver 0.19.1
+1520518343936	geckodriver	INFO	Listening on 127.0.0.1:57658
+1520518344945	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/md/3_f8mgx13pqd2pcxj_qb5mk00000gn/T/rust_mozprofile.CbEkq9OwZL9Q"
+1520518345386	Marionette	INFO	Enabled via --marionette
+2018-03-08 22:12:26.051 plugin-container[2668:250845] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1520518346473	Marionette	INFO	Listening on port 57669
+1520518346511	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520518346554	Marionette	DEBUG	Register listener.js for window 2147483649
+1520518346584	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1520518346911	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1520518346911	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1520518348015	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://login.taobao.com/"
+1520518349284	Marionette	DEBUG	Received DOM event "pageshow" for "https://login.taobao.com/"
+1520518353079	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1520518367078	geckodriver	INFO	geckodriver 0.19.1
+1520518367135	geckodriver	INFO	Listening on 127.0.0.1:57777
+1520518368174	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/md/3_f8mgx13pqd2pcxj_qb5mk00000gn/T/rust_mozprofile.3BACBUJLjg5t"
+1520518368621	Marionette	INFO	Enabled via --marionette
+2018-03-08 22:12:49.387 plugin-container[2680:251235] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9d33, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1520518369903	Marionette	INFO	Listening on port 57789
+1520518369970	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520518370033	Marionette	DEBUG	Register listener.js for window 2147483649
+1520518370064	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1520518370156	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1520518370156	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1520518370522	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://login.taobao.com/"
+1520518371597	Marionette	DEBUG	Received DOM event "pageshow" for "https://login.taobao.com/"
+1520518375382	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
