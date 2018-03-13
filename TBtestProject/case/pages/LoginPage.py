@@ -10,7 +10,6 @@ class LoginPage(BasePage):
     """
     封装登录页面的元素及其方法
     """
-
     switch_login_mode = ('id', 'J_Quick2Static')  # 切换登录模式按钮
     username = ('id', 'TPL_username_1')           # 用户名输入框
     psw = ('id', 'TPL_password_1')                # 密码输入框
@@ -28,8 +27,8 @@ class LoginPage(BasePage):
 
     def switch_model(self):
         """ 切换登录方式，实际的切换操作在 switch_to_psw_login 中执行 """
-        # 查找二维码图片，存在则需要切换登陆方式为用户名、密码登录
         scan_img = self.find_element(LoginPage.scan_tip)
+        # 查找二维码图片，存在则需要切换登陆方式为用户名、密码登录
         if scan_img:
             self.switch_to_psw_login()
 
@@ -44,7 +43,7 @@ class LoginPage(BasePage):
 
     def send_psw(self, psw):
         """ 输入密码 """
-        # 输入密码
+
         # 首先判断当前是否为用户名密码登录方式，不是则需要切换登录方式
         if LoginPage.LOGINFLAG == False: self.switch_model()
         self.sendKeys(LoginPage.psw, psw)
@@ -53,7 +52,6 @@ class LoginPage(BasePage):
 
     def ACTION_DRAG(self):
         """ 执行拖拉操作 """
-        # 执行拖动滑动块的动作
         slider = self.find_element(LoginPage.slider)
         action = ActionChains(self.driver)
         action.click_and_hold(slider).perform()
@@ -63,16 +61,8 @@ class LoginPage(BasePage):
 
     def dragSlider(self):
         """ 拖动滑动条，实际的拖拉操作在 ACTION_DRAG 中执行 """
-        # 判断滑动条是否存在,存在则需要拖动滑块
-        # try:
-        #     slider = self.find_element(LoginPage.slider)
-        #     print("=======slider=====")
-        #     print(slider)
-        #     self.ACTION_DRAG(slider)
-        # except TimeoutException:
-        #     print("不需要滑动验证")
         try:
-            result = self.find_element(LoginPage.slider)
+            self.find_element(LoginPage.slider)
             self.ACTION_DRAG()
         except TimeoutException:
             print("不需要滑动验证")
@@ -89,7 +79,7 @@ if __name__ == "__main__":
     driver = webdriver.Firefox()
     logindriver = LoginPage(driver)
     logindriver.open("https://login.taobao.com")
-    logindriver.send_name("18521036297")
-    logindriver.send_psw("cmd15fzwakkn1412")
+    logindriver.send_name("xxxxxxxxx")
+    logindriver.send_psw("xxxxxxxx")
     logindriver.login()
 

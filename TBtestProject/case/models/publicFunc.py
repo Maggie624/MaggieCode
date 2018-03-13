@@ -7,8 +7,8 @@ class Login():
     Usage: 封装登录页面需要调用的方法
     """
 
-    DEFAULT_NAME = '18521036297'
-    DEFAULT_PSW = 'cmd15fzwakkn1412'
+    DEFAULT_NAME = 'xxxxxxxxxxx'
+    DEFAULT_PSW = 'xxxxxxxxxxxx'
     cookies = []
 
     AUTO_IN = False          # 是否可以实现Cookies登录的标识位

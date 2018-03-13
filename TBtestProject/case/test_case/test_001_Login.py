@@ -8,8 +8,8 @@ from TBtestProject.case.pages.MyTbPage import MyTbPage
 
 class Login(unittest.TestCase):
 
-    username = '18521036297'
-    password = 'cmd15fzwakkn1412'
+    username = 'xxxxxxxxxx'
+    password = 'xxxxxxxxxx'
 
     @classmethod
     def setUpClass(cls):
