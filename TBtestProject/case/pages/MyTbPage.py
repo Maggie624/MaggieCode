@@ -1,6 +1,8 @@
 from TBtestProject.case.models.BasePage import BasePage
+from TBtestProject.case.models.NavigationBar import NavigationBar
 
-class MyTbPage(BasePage):
+
+class MyTbPage(BasePage, NavigationBar):
     """
        我的淘宝页面
     """

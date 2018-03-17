@@ -32,18 +32,22 @@ class NavigationBar(BasePage):
     def SWITCH_ACTION(self, num):
         js_find_region_item = 'var ul_item = document.getElementById("J_SiteNavRegionList"); ' \
                               'var lists = ul_item.getElementsByTagName("li");' \
-                              'for(var i=0; i<lists.length; i++){lists['+str(num)+'].click();}'
-        self.driver.execute_script(js_find_region_item)
+                              'lists'+str(num)+'.click();'
+        print("js===", end=' ')
+        print(js_find_region_item)
+        self.execute_script(js_find_region_item)
 
     @staticmethod
     def get_keys(value):
         return [k for k, v in NavigationBar.region_dicts.items() if v == value]
 
-    def switch_language(self, languange):
+    def switch_language(self, languange, driver):
         """切换语言"""
         region_select = self.find_element(NavigationBar.region)
         self.moveToele(driver, region_select)
         num = NavigationBar.get_keys(languange)
+        print("num===", end=' ')
+        print(num)
         self.SWITCH_ACTION(num)
 
     def switch_to_login(self):
@@ -112,9 +116,8 @@ class NavigationBar(BasePage):
 
 if __name__ == "__main__":
     """ 模块自测 """
-    driver = webdriver.Chrome()
+    driver = webdriver.Firefox()
     barDriver = NavigationBar(driver)
-    #barDriver.open('http://127.0.0.1:49776/TBhomepage.html')
     barDriver.open('https://www.taobao.com/')
 
     # barDriver.click(NavigationBar.login)
@@ -126,9 +129,11 @@ if __name__ == "__main__":
     # barDriver.click(NavigationBar.cart)
     # driver.back()
 
-    barDriver.switch_language("美国")
+    barDriver.switch_language("美国", driver)
     driver.back()
     barDriver.switch_to_bought_item(driver)
+    driver.back()
+    barDriver.switch_language('加拿大')
 
 
 

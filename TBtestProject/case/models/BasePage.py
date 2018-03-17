@@ -71,6 +71,9 @@ class BasePage(object):
         """ 鼠标悬停到某可见元素 """
         ActionChains(driver).move_to_element(element).perform()
 
+    def execute_script(self, js_command):
+        self.driver.execute_script(js_command)
+
 if __name__ == "__main__":
     driver = webdriver.Chrome()
     baseDriver = BasePage(driver)
