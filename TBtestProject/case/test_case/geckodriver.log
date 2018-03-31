@@ -1783,3 +1783,675 @@ See /usr/include/servers/bootstrap_defs.h for the error codes.
 1520518375382	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
 *** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
 *** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1522484039003	geckodriver	INFO	geckodriver 0.19.1
+1522484039089	geckodriver	INFO	Listening on 127.0.0.1:52775
+1522484040106	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/md/3_f8mgx13pqd2pcxj_qb5mk00000gn/T/rust_mozprofile.ZYr9YWFeMQbE"
+1522484040716	Marionette	INFO	Enabled via --marionette
+2018-03-31 16:14:01.908 plugin-container[24124:3648436] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9e3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1522484042423	Marionette	INFO	Listening on port 52786
+1522484042536	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522484042613	Marionette	DEBUG	Register listener.js for window 2147483649
+1522484042643	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1522484043301	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1522484043301	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1522484044372	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.taobao.com/"
+1522484045109	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.taobao.com/"
+1522484048809	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.taobao.com/"
+1522484049021	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.taobao.com/"
+1522484049022	Marionette	DEBUG	Received DOM event "unload" for "https://www.taobao.com/"
+1522484049139	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1522484049139	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1522484049139	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1522484049273	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.taobao.com/search?q=chicca%E5%8F%A3%E7%BA%A2&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20170306"
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 26: SyntaxError: expected expression, got '<'
+1522484050803	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.taobao.com/search?q=chicca%E5%8F%A3%E7%BA%A2&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20170306"
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 24124, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+1522484130561	geckodriver	INFO	geckodriver 0.19.1
+1522484130622	geckodriver	INFO	Listening on 127.0.0.1:53034
+1522484131660	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/md/3_f8mgx13pqd2pcxj_qb5mk00000gn/T/rust_mozprofile.vMHa7ppc8RyI"
+1522484132235	Marionette	INFO	Enabled via --marionette
+2018-03-31 16:15:33.015 plugin-container[24141:3650131] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9e37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1522484133556	Marionette	INFO	Listening on port 53049
+1522484133586	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522484133644	Marionette	DEBUG	Register listener.js for window 2147483649
+1522484133670	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1522484133798	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1522484133798	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1522484134565	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.taobao.com/"
+1522484135095	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.taobao.com/"
+1522484138793	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.taobao.com/"
+1522484139071	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.taobao.com/"
+1522484139072	Marionette	DEBUG	Received DOM event "unload" for "https://www.taobao.com/"
+1522484139177	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1522484139177	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1522484139178	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1522484139370	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.taobao.com/search?q=chic%E5%A4%8F%E5%AD%A3%E4%B8%8A%E8%A1%A3&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20170306"
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 26: SyntaxError: expected expression, got '<'
+1522484140916	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.taobao.com/search?q=chic%E5%A4%8F%E5%AD%A3%E4%B8%8A%E8%A1%A3&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20170306"
+1522484242461	geckodriver	INFO	geckodriver 0.19.1
+1522484242516	geckodriver	INFO	Listening on 127.0.0.1:53296
+1522484243569	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/md/3_f8mgx13pqd2pcxj_qb5mk00000gn/T/rust_mozprofile.h3bhH7t4Jwx5"
+1522484244044	Marionette	INFO	Enabled via --marionette
+2018-03-31 16:17:24.885 plugin-container[24160:3651888] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9e33, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1522484245417	Marionette	INFO	Listening on port 53307
+1522484245466	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522484245517	Marionette	DEBUG	Register listener.js for window 2147483649
+1522484245538	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1522484245640	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1522484245641	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1522484246440	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.taobao.com/"
+1522484247219	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.taobao.com/"
+1522484250901	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.taobao.com/"
+1522484251101	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.taobao.com/"
+1522484251102	Marionette	DEBUG	Received DOM event "unload" for "https://www.taobao.com/"
+1522484251217	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1522484251217	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1522484251217	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1522484251373	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.taobao.com/search?q=%E5%8D%97%E6%96%B9%E6%9C%89%E4%B9%94%E6%9C%A8%E5%90%8C%E6%AC%BE&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20170306"
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 26: SyntaxError: expected expression, got '<'
+1522484254443	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.taobao.com/search?q=%E5%8D%97%E6%96%B9%E6%9C%89%E4%B9%94%E6%9C%A8%E5%90%8C%E6%AC%BE&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20170306"
+1522484347030	geckodriver	INFO	geckodriver 0.19.1
+1522484347104	geckodriver	INFO	Listening on 127.0.0.1:53564
+1522484348145	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/md/3_f8mgx13pqd2pcxj_qb5mk00000gn/T/rust_mozprofile.sSbuBTXFq0DE"
+1522484348683	Marionette	INFO	Enabled via --marionette
+2018-03-31 16:19:09.491 plugin-container[24184:3653368] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f33, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1522484349946	Marionette	INFO	Listening on port 53575
+1522484350040	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522484350094	Marionette	DEBUG	Register listener.js for window 2147483649
+1522484350123	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1522484350238	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1522484350238	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1522484350888	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.taobao.com/"
+1522484351453	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.taobao.com/"
+1522484355142	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.taobao.com/"
+1522484355438	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.taobao.com/"
+1522484355439	Marionette	DEBUG	Received DOM event "unload" for "https://www.taobao.com/"
+1522484355712	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1522484355712	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1522484355713	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1522484355879	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.taobao.com/search?q=chic%E9%9F%A9%E9%A3%8E%E7%94%B7%E8%A3%A4%E5%AD%90&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20170306"
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 26: SyntaxError: expected expression, got '<'
+1522484358170	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.taobao.com/search?q=chic%E9%9F%A9%E9%A3%8E%E7%94%B7%E8%A3%A4%E5%AD%90&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20170306"
+1522485767591	geckodriver	INFO	geckodriver 0.19.1
+1522485767658	geckodriver	INFO	Listening on 127.0.0.1:56781
+1522485768704	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/md/3_f8mgx13pqd2pcxj_qb5mk00000gn/T/rust_mozprofile.jow9wa1edFf8"
+1522485769223	Marionette	INFO	Enabled via --marionette
+2018-03-31 16:42:50.056 plugin-container[24437:3669774] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9e33, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1522485770532	Marionette	INFO	Listening on port 56797
+1522485770602	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522485770669	Marionette	DEBUG	Register listener.js for window 2147483649
+1522485770699	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1522485770831	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1522485770831	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1522485771604	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.taobao.com/"
+1522485772175	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.taobao.com/"
+1522485775853	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.taobao.com/"
+1522485776155	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.taobao.com/"
+1522485776156	Marionette	DEBUG	Received DOM event "unload" for "https://www.taobao.com/"
+1522485776266	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1522485776266	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1522485776267	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1522485776395	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.taobao.com/search?q=ipad2018%E6%96%B0%E6%AC%BE&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20170306"
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 26: SyntaxError: expected expression, got '<'
+1522485778376	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.taobao.com/search?q=ipad2018%E6%96%B0%E6%AC%BE&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20170306"
+1522485793642	geckodriver	INFO	geckodriver 0.19.1
+1522485793700	geckodriver	INFO	Listening on 127.0.0.1:56969
+1522485794750	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/md/3_f8mgx13pqd2pcxj_qb5mk00000gn/T/rust_mozprofile.pdtW96iIMVNh"
+1522485795248	Marionette	INFO	Enabled via --marionette
+2018-03-31 16:43:16.105 plugin-container[24447:3671267] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1522485796551	Marionette	INFO	Listening on port 56984
+1522485796664	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522485796719	Marionette	DEBUG	Register listener.js for window 2147483649
+1522485796736	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1522485797031	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1522485797031	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1522485798116	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.taobao.com/"
+1522485798517	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.taobao.com/"
+1522485802183	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.taobao.com/"
+1522485802455	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.taobao.com/"
+1522485802456	Marionette	DEBUG	Received DOM event "unload" for "https://www.taobao.com/"
+1522485802598	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1522485802599	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1522485802599	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1522485802700	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.taobao.com/search?q=%E8%8A%B1%E8%8A%B1%E5%AE%B6%E5%A5%B3%E8%A3%85&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20170306"
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 26: SyntaxError: expected expression, got '<'
+1522485804166	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.taobao.com/search?q=%E8%8A%B1%E8%8A%B1%E5%AE%B6%E5%A5%B3%E8%A3%85&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20170306"
+1522485836241	geckodriver	INFO	geckodriver 0.19.1
+1522485836303	geckodriver	INFO	Listening on 127.0.0.1:57278
+1522485837334	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/md/3_f8mgx13pqd2pcxj_qb5mk00000gn/T/rust_mozprofile.Wezu5E9rt4yz"
+1522485837794	Marionette	INFO	Enabled via --marionette
+2018-03-31 16:43:58.580 plugin-container[24457:3672800] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9e27, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1522485839068	Marionette	INFO	Listening on port 57293
+1522485839131	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522485839184	Marionette	DEBUG	Register listener.js for window 2147483649
+1522485839226	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1522485839364	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1522485839365	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1522485840690	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.taobao.com/"
+1522485842034	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.taobao.com/"
+1522485845699	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.taobao.com/"
+1522485845929	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.taobao.com/"
+1522485845930	Marionette	DEBUG	Received DOM event "unload" for "https://www.taobao.com/"
+1522485846065	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1522485846066	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1522485846067	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1522485846188	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.taobao.com/search?q=%E6%B4%8B%E6%B0%94%E7%9F%AD%E8%A3%A4%E5%A5%97%E8%A3%85+%E5%A4%8F%E5%AD%A3&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20170306"
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 26: SyntaxError: expected expression, got '<'
+1522485847920	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.taobao.com/search?q=%E6%B4%8B%E6%B0%94%E7%9F%AD%E8%A3%A4%E5%A5%97%E8%A3%85+%E5%A4%8F%E5%AD%A3&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20170306"
+1522487425036	geckodriver	INFO	geckodriver 0.19.1
+1522487425110	geckodriver	INFO	Listening on 127.0.0.1:60607
+1522487426117	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/md/3_f8mgx13pqd2pcxj_qb5mk00000gn/T/rust_mozprofile.9GopOKtS0UuX"
+1522487426793	Marionette	INFO	Enabled via --marionette
+2018-03-31 17:10:27.982 plugin-container[24621:3690100] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9e37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1522487428588	Marionette	INFO	Listening on port 60622
+1522487428666	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522487428720	Marionette	DEBUG	Register listener.js for window 2147483649
+1522487428736	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1522487428837	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1522487428837	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1522487429647	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.taobao.com/"
+1522487431127	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.taobao.com/"
+1522487434876	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.taobao.com/"
+1522487435102	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.taobao.com/"
+1522487435103	Marionette	DEBUG	Received DOM event "unload" for "https://www.taobao.com/"
+1522487435275	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1522487435276	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1522487435277	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1522487435565	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.taobao.com/search?q=%E5%8C%97%E6%AC%A7%E5%AE%9E%E6%9C%A8%E9%A4%90%E8%BE%B9%E6%9F%9C&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20170306"
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 26: SyntaxError: expected expression, got '<'
+1522487437585	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.taobao.com/search?q=%E5%8C%97%E6%AC%A7%E5%AE%9E%E6%9C%A8%E9%A4%90%E8%BE%B9%E6%9F%9C&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20170306"
+1522488494185	geckodriver	INFO	geckodriver 0.19.1
+1522488494242	geckodriver	INFO	Listening on 127.0.0.1:62738
+1522488495270	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/md/3_f8mgx13pqd2pcxj_qb5mk00000gn/T/rust_mozprofile.7W1qBznhvv6c"
+1522488495685	Marionette	INFO	Enabled via --marionette
+2018-03-31 17:28:16.527 plugin-container[24736:3702643] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9d37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1522488497005	Marionette	INFO	Listening on port 62749
+1522488497058	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522488497102	Marionette	DEBUG	Register listener.js for window 2147483649
+1522488497133	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1522488497243	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1522488497244	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1522488498079	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.taobao.com/"
+1522488499340	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.taobao.com/"
+1522488503008	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.taobao.com/"
+1522488503188	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.taobao.com/"
+1522488503190	Marionette	DEBUG	Received DOM event "unload" for "https://www.taobao.com/"
+1522488503471	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1522488503471	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1522488503472	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1522488503578	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.taobao.com/search?q=%E7%BE%8E%E4%BA%BA%E9%B1%BC%E5%B9%B2%E6%B9%BF%E4%B8%A4%E7%94%A8%E7%B2%89%E9%A5%BC&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20170306"
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 26: SyntaxError: expected expression, got '<'
+1522488505150	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.taobao.com/search?q=%E7%BE%8E%E4%BA%BA%E9%B1%BC%E5%B9%B2%E6%B9%BF%E4%B8%A4%E7%94%A8%E7%B2%89%E9%A5%BC&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20170306"
+1522488505304	geckodriver	INFO	geckodriver 0.19.1
+1522488505392	geckodriver	INFO	Listening on 127.0.0.1:62880
+1522488506381	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/md/3_f8mgx13pqd2pcxj_qb5mk00000gn/T/rust_mozprofile.53RdAAEGO5gw"
+1522488506860	Marionette	INFO	Enabled via --marionette
+2018-03-31 17:28:27.580 plugin-container[24740:3703382] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9e33, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1522488508021	Marionette	INFO	Listening on port 62895
+1522488508060	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522488508111	Marionette	DEBUG	Register listener.js for window 2147483649
+1522488508131	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1522488508230	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1522488508230	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1522488508846	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.taobao.com/"
+1522488510412	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.taobao.com/"
+1522488514091	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.taobao.com/"
+1522488514361	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.taobao.com/"
+1522488514362	Marionette	DEBUG	Received DOM event "unload" for "https://www.taobao.com/"
+1522488514486	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1522488514487	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1522488514488	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1522488514584	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.taobao.com/search?q=%E7%BE%BD%E7%BB%92%E6%9C%8D&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20170306"
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 26: SyntaxError: expected expression, got '<'
+1522488516259	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.taobao.com/search?q=%E7%BE%BD%E7%BB%92%E6%9C%8D&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20170306"
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1522488516393	geckodriver	INFO	geckodriver 0.19.1
+1522488516461	geckodriver	INFO	Listening on 127.0.0.1:63028
+1522488517483	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/md/3_f8mgx13pqd2pcxj_qb5mk00000gn/T/rust_mozprofile.KiZ3VyLfMo1o"
+1522488517962	Marionette	INFO	Enabled via --marionette
+2018-03-31 17:28:38.692 plugin-container[24743:3704107] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9e37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1522488519127	Marionette	INFO	Listening on port 63043
+1522488519178	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522488519225	Marionette	DEBUG	Register listener.js for window 2147483649
+1522488519248	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1522488519343	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1522488519343	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1522488520561	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.taobao.com/"
+1522488521633	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.taobao.com/"
+1522488525277	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.taobao.com/"
+1522488525441	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.taobao.com/"
+1522488525442	Marionette	DEBUG	Received DOM event "unload" for "https://www.taobao.com/"
+1522488525568	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1522488525568	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1522488525569	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1522488525657	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.taobao.com/search?q=qazxjdoel&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20170306"
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 26: SyntaxError: expected expression, got '<'
+1522488526451	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.taobao.com/search?q=qazxjdoel&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20170306"
+1522488609971	geckodriver	INFO	geckodriver 0.19.1
+1522488610030	geckodriver	INFO	Listening on 127.0.0.1:63269
+1522488611054	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/md/3_f8mgx13pqd2pcxj_qb5mk00000gn/T/rust_mozprofile.mL1ludfheme7"
+1522488611600	Marionette	INFO	Enabled via --marionette
+2018-03-31 17:30:12.465 plugin-container[24757:3706030] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9e37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1522488613012	Marionette	INFO	Listening on port 63280
+1522488613080	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522488613148	Marionette	DEBUG	Register listener.js for window 2147483649
+1522488613175	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1522488613261	geckodriver	INFO	geckodriver 0.19.1
+1522488613279	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1522488613279	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1522488613403	geckodriver	INFO	Listening on 127.0.0.1:63338
+1522488613998	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.taobao.com/"
+1522488614469	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/md/3_f8mgx13pqd2pcxj_qb5mk00000gn/T/rust_mozprofile.pBPYtHK5gms3"
+1522488614688	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.taobao.com/"
+1522488615200	Marionette	INFO	Enabled via --marionette
+2018-03-31 17:30:16.198 plugin-container[24763:3706207] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9e37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1522488616761	Marionette	INFO	Listening on port 63377
+1522488616869	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522488616922	Marionette	DEBUG	Register listener.js for window 2147483649
+1522488616945	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1522488617026	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1522488617027	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1522488617860	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.taobao.com/"
+1522488618481	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.taobao.com/"
+1522488618728	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.taobao.com/"
+1522488618821	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.taobao.com/"
+1522488618823	Marionette	DEBUG	Received DOM event "unload" for "https://www.taobao.com/"
+1522488618989	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1522488618989	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1522488618990	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1522488619152	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.taobao.com/search?q=%E7%A5%96%E9%A9%AC%E9%BE%99%E4%B9%8C%E6%9C%A8%E4%BD%9B%E6%89%8B%E6%9F%91&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20170306"
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 26: SyntaxError: expected expression, got '<'
+1522488622004	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.taobao.com/search?q=%E7%A5%96%E9%A9%AC%E9%BE%99%E4%B9%8C%E6%9C%A8%E4%BD%9B%E6%89%8B%E6%9F%91&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20170306"
+1522488622207	geckodriver	INFO	geckodriver 0.19.1
+1522488622300	geckodriver	INFO	Listening on 127.0.0.1:63534
+1522488622401	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.taobao.com/"
+1522488622538	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.taobao.com/"
+1522488622539	Marionette	DEBUG	Received DOM event "unload" for "https://www.taobao.com/"
+1522488622772	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1522488622772	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1522488622772	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1522488622960	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.taobao.com/search?q=qazxjdoel&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20170306"
+1522488623336	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/md/3_f8mgx13pqd2pcxj_qb5mk00000gn/T/rust_mozprofile.exYHTMhn4Enu"
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 26: SyntaxError: expected expression, got '<'
+1522488623908	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.taobao.com/search?q=qazxjdoel&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20170306"
+1522488624335	Marionette	INFO	Enabled via --marionette
+2018-03-31 17:30:25.265 plugin-container[24767:3707324] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9e37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1522488625867	Marionette	INFO	Listening on port 63562
+1522488625888	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522488625937	Marionette	DEBUG	Register listener.js for window 2147483649
+1522488625959	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1522488626051	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1522488626051	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1522488626730	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.taobao.com/"
+1522488627123	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.taobao.com/"
+1522488630761	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.taobao.com/"
+1522488631053	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.taobao.com/"
+1522488631053	Marionette	DEBUG	Received DOM event "unload" for "https://www.taobao.com/"
+1522488631336	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1522488631336	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1522488631337	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1522488632083	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.taobao.com/search?q=%E7%BE%BD%E7%BB%92%E6%9C%8D&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20170306"
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 26: SyntaxError: expected expression, got '<'
+1522488634306	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.taobao.com/search?q=%E7%BE%BD%E7%BB%92%E6%9C%8D&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20170306"
+1522488634437	geckodriver	INFO	geckodriver 0.19.1
+1522488634505	geckodriver	INFO	Listening on 127.0.0.1:63717
+1522488635514	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/md/3_f8mgx13pqd2pcxj_qb5mk00000gn/T/rust_mozprofile.MA5gHDsXd2qV"
+1522488635940	Marionette	INFO	Enabled via --marionette
+2018-03-31 17:30:36.633 plugin-container[24772:3708354] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9e33, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1522488637085	Marionette	INFO	Listening on port 63732
+1522488637104	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522488637159	Marionette	DEBUG	Register listener.js for window 2147483649
+1522488637174	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1522488637254	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1522488637254	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1522488637887	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.taobao.com/"
+1522488638247	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.taobao.com/"
+1522488641888	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.taobao.com/"
+1522488642053	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.taobao.com/"
+1522488642054	Marionette	DEBUG	Received DOM event "unload" for "https://www.taobao.com/"
+1522488642171	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1522488642171	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1522488642172	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1522488642307	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.taobao.com/search?q=qazxjdoel&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20170306"
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 26: SyntaxError: expected expression, got '<'
+1522488644046	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.taobao.com/search?q=qazxjdoel&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20170306"
+1522488686552	geckodriver	INFO	geckodriver 0.19.1
+1522488686609	geckodriver	INFO	Listening on 127.0.0.1:63886
+1522488687676	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/md/3_f8mgx13pqd2pcxj_qb5mk00000gn/T/rust_mozprofile.yARJwqOaSUQr"
+1522488688151	Marionette	INFO	Enabled via --marionette
+2018-03-31 17:31:28.932 plugin-container[24787:3709759] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f33, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1522488689403	Marionette	INFO	Listening on port 63901
+1522488689476	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522488689530	Marionette	DEBUG	Register listener.js for window 2147483649
+1522488689561	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1522488689664	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1522488689664	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1522488690236	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.taobao.com/"
+1522488690731	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.taobao.com/"
+1522488694403	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.taobao.com/"
+1522488694689	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.taobao.com/"
+1522488694691	Marionette	DEBUG	Received DOM event "unload" for "https://www.taobao.com/"
+1522488694784	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1522488694784	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1522488694785	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1522488694872	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.taobao.com/search?q=qazxjdoel&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20170306"
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 26: SyntaxError: expected expression, got '<'
+1522488695679	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.taobao.com/search?q=qazxjdoel&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20170306"
+1522488710241	geckodriver	INFO	geckodriver 0.19.1
+1522488710303	geckodriver	INFO	Listening on 127.0.0.1:64031
+1522488711312	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/md/3_f8mgx13pqd2pcxj_qb5mk00000gn/T/rust_mozprofile.gNkQqv1n8PFU"
+1522488711770	Marionette	INFO	Enabled via --marionette
+2018-03-31 17:31:52.558 plugin-container[24799:3710721] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1522488713015	Marionette	INFO	Listening on port 64042
+1522488713120	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522488713185	Marionette	DEBUG	Register listener.js for window 2147483649
+1522488713218	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1522488713339	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1522488713339	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1522488714077	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.taobao.com/"
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[Child 24799, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 24799, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 24799, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 24799, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+1522488714669	geckodriver	INFO	geckodriver 0.19.1
+1522488714731	geckodriver	INFO	Listening on 127.0.0.1:64128
+1522488715747	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/md/3_f8mgx13pqd2pcxj_qb5mk00000gn/T/rust_mozprofile.no6hu715uLeP"
+1522488716286	Marionette	INFO	Enabled via --marionette
+2018-03-31 17:31:57.052 plugin-container[24807:3711365] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9e37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1522488717487	Marionette	INFO	Listening on port 64143
+1522488717539	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522488717585	Marionette	DEBUG	Register listener.js for window 2147483649
+1522488717615	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1522488717728	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1522488717728	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1522488718360	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.taobao.com/"
+1522488719313	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.taobao.com/"
+Marionette threw an error: [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: chrome://marionette/content/driver.js :: GeckoDriver.prototype.maximizeWindow/windowSizeChange/< :: line 3055"  data: no]
+GeckoDriver.prototype.maximizeWindow/windowSizeChange/<@chrome://marionette/content/driver.js:3055:9
+evalFn@chrome://marionette/content/wait.js:95:7
+
+1522488721698	geckodriver	INFO	geckodriver 0.19.1
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1522488721808	geckodriver	INFO	Listening on 127.0.0.1:64245
+1522488722848	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/md/3_f8mgx13pqd2pcxj_qb5mk00000gn/T/rust_mozprofile.p4LLR5jfUXrq"
+1522488723327	Marionette	INFO	Enabled via --marionette
+2018-03-31 17:32:04.077 plugin-container[24810:3711738] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9e33, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1522488724631	Marionette	INFO	Listening on port 64260
+1522488724655	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522488724715	Marionette	DEBUG	Register listener.js for window 2147483649
+1522488724747	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1522488724848	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1522488724848	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1522488725413	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.taobao.com/"
+1522488725972	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.taobao.com/"
+1522488726630	geckodriver	INFO	geckodriver 0.19.1
+1522488726698	geckodriver	INFO	Listening on 127.0.0.1:64352
+1522488727704	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/md/3_f8mgx13pqd2pcxj_qb5mk00000gn/T/rust_mozprofile.B7pCWD6o3J5t"
+1522488728136	Marionette	INFO	Enabled via --marionette
+2018-03-31 17:32:08.832 plugin-container[24813:3711995] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9e33, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1522488729265	Marionette	INFO	Listening on port 64367
+1522488729283	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522488729335	Marionette	DEBUG	Register listener.js for window 2147483649
+1522488729360	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1522488729441	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1522488729441	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1522488730117	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.taobao.com/"
+1522488730942	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.taobao.com/"
+1522488734610	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.taobao.com/"
+1522488734759	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.taobao.com/"
+1522488734760	Marionette	DEBUG	Received DOM event "unload" for "https://www.taobao.com/"
+1522488734868	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1522488734868	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1522488734869	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1522488734953	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.taobao.com/search?q=qazxjdoel&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20170306"
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 26: SyntaxError: expected expression, got '<'
+1522488736071	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.taobao.com/search?q=qazxjdoel&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20170306"
+1522489126465	geckodriver	INFO	geckodriver 0.19.1
+1522489126543	geckodriver	INFO	Listening on 127.0.0.1:65137
+1522489127545	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/md/3_f8mgx13pqd2pcxj_qb5mk00000gn/T/rust_mozprofile.SFOeEXkOkJPX"
+1522489128209	Marionette	INFO	Enabled via --marionette
+2018-03-31 17:38:49.146 plugin-container[24855:3717247] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9e33, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1522489129673	Marionette	INFO	Listening on port 65148
+1522489129764	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522489129814	Marionette	DEBUG	Register listener.js for window 2147483649
+1522489129837	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1522489130269	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1522489130269	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1522489130963	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.taobao.com/"
+1522489131543	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.taobao.com/"
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+Marionette threw an error: [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: chrome://marionette/content/driver.js :: GeckoDriver.prototype.maximizeWindow/windowSizeChange/< :: line 3055"  data: no]
+GeckoDriver.prototype.maximizeWindow/windowSizeChange/<@chrome://marionette/content/driver.js:3055:9
+evalFn@chrome://marionette/content/wait.js:95:7
+wait.until/<@chrome://marionette/content/wait.js:110:5
+wait.until@chrome://marionette/content/wait.js:90:10
+windowSizeChange@chrome://marionette/content/driver.js:3053:12
+GeckoDriver.prototype.maximizeWindow@chrome://marionette/content/driver.js:3093:11
+
+1522489133082	geckodriver	INFO	geckodriver 0.19.1
+1522489133142	geckodriver	INFO	Listening on 127.0.0.1:65263
+1522489134151	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/md/3_f8mgx13pqd2pcxj_qb5mk00000gn/T/rust_mozprofile.M27v5LwM7QR1"
+1522489134596	Marionette	INFO	Enabled via --marionette
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+2018-03-31 17:38:55.508 plugin-container[24858:3717477] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1522489136043	Marionette	INFO	Listening on port 65282
+1522489136098	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522489136151	Marionette	DEBUG	Register listener.js for window 2147483649
+1522489136168	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1522489136302	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1522489136302	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1522489137018	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.taobao.com/"
+1522489137512	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.taobao.com/"
+1522489138577	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///Applications/Firefox.app/Contents/Resources/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///Applications/Firefox.app/Contents/Resources/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281
+1522489138750	geckodriver	INFO	geckodriver 0.19.1
+1522489138815	geckodriver	INFO	Listening on 127.0.0.1:65386
+1522489139837	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/md/3_f8mgx13pqd2pcxj_qb5mk00000gn/T/rust_mozprofile.1Qx6TaQI675g"
+1522489140320	Marionette	INFO	Enabled via --marionette
+2018-03-31 17:39:01.030 plugin-container[24862:3717709] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f2b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1522489141483	Marionette	INFO	Listening on port 65401
+1522489141504	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522489141559	Marionette	DEBUG	Register listener.js for window 2147483649
+1522489141586	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1522489141687	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1522489141688	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1522489142418	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.taobao.com/"
+1522489142871	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.taobao.com/"
+[Child 24862, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1522489309063	geckodriver	INFO	geckodriver 0.19.1
+1522489309123	geckodriver	INFO	Listening on 127.0.0.1:49412
+1522489310144	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/md/3_f8mgx13pqd2pcxj_qb5mk00000gn/T/rust_mozprofile.AOtok78RudUY"
+1522489310626	Marionette	INFO	Enabled via --marionette
+2018-03-31 17:41:51.401 plugin-container[24896:3719051] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1522489311853	Marionette	INFO	Listening on port 49427
+1522489311922	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522489311979	Marionette	DEBUG	Register listener.js for window 2147483649
+1522489312018	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1522489312164	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1522489312164	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1522489312586	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://login.taobao.com/"
+1522489313603	Marionette	DEBUG	Received DOM event "pageshow" for "https://login.taobao.com/"
+1522489317414	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1522489396559	geckodriver	INFO	geckodriver 0.19.1
+1522489396623	geckodriver	INFO	Listening on 127.0.0.1:49837
+1522489397652	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/md/3_f8mgx13pqd2pcxj_qb5mk00000gn/T/rust_mozprofile.h7x6flvcEssm"
+1522489398231	Marionette	INFO	Enabled via --marionette
+2018-03-31 17:43:19.075 plugin-container[24911:3720430] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9e37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1522489399584	Marionette	INFO	Listening on port 49848
+1522489399655	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522489399720	Marionette	DEBUG	Register listener.js for window 2147483649
+1522489399757	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1522489399878	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1522489399878	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1522489400673	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.taobao.com/"
+1522489401277	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.taobao.com/"
+1522489404969	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.taobao.com/"
+1522489405331	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.taobao.com/"
+1522489405332	Marionette	DEBUG	Received DOM event "unload" for "https://www.taobao.com/"
+1522489405446	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1522489405446	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1522489405446	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1522489405557	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.taobao.com/search?q=%E6%B4%8B%E6%B0%94%E7%9F%AD%E8%A3%A4%E5%A5%97%E8%A3%85+%E5%A4%8F%E5%AD%A3&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20170306"
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 26: SyntaxError: expected expression, got '<'
+1522489407307	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.taobao.com/search?q=%E6%B4%8B%E6%B0%94%E7%9F%AD%E8%A3%A4%E5%A5%97%E8%A3%85+%E5%A4%8F%E5%AD%A3&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20170306"
+1522489407501	geckodriver	INFO	geckodriver 0.19.1
+1522489407632	geckodriver	INFO	Listening on 127.0.0.1:50011
+1522489408583	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/md/3_f8mgx13pqd2pcxj_qb5mk00000gn/T/rust_mozprofile.DAsYdyoZaC2M"
+1522489409095	Marionette	INFO	Enabled via --marionette
+2018-03-31 17:43:29.933 plugin-container[24915:3721181] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f33, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1522489410445	Marionette	INFO	Listening on port 50026
+1522489410482	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522489410532	Marionette	DEBUG	Register listener.js for window 2147483649
+1522489410563	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1522489410669	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1522489410669	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1522489411353	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.taobao.com/"
+1522489411881	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.taobao.com/"
+1522489415531	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.taobao.com/"
+1522489415871	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.taobao.com/"
+1522489415873	Marionette	DEBUG	Received DOM event "unload" for "https://www.taobao.com/"
+1522489416221	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1522489416221	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1522489416222	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1522489416473	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.taobao.com/search?q=%E7%BE%BD%E7%BB%92%E6%9C%8D&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20170306"
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 26: SyntaxError: expected expression, got '<'
+1522489417842	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.taobao.com/search?q=%E7%BE%BD%E7%BB%92%E6%9C%8D&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20170306"
+1522489418115	geckodriver	INFO	geckodriver 0.19.1
+1522489418200	geckodriver	INFO	Listening on 127.0.0.1:50188
+1522489419210	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/md/3_f8mgx13pqd2pcxj_qb5mk00000gn/T/rust_mozprofile.hoObIMmsYjOb"
+1522489419707	Marionette	INFO	Enabled via --marionette
+2018-03-31 17:43:40.485 plugin-container[24918:3721899] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1522489420885	Marionette	INFO	Listening on port 50203
+1522489420991	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522489421035	Marionette	DEBUG	Register listener.js for window 2147483649
+1522489421056	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1522489421147	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1522489421148	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1522489421726	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.taobao.com/"
+1522489422232	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.taobao.com/"
+1522489425889	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.taobao.com/"
+1522489426276	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.taobao.com/"
+1522489426278	Marionette	DEBUG	Received DOM event "unload" for "https://www.taobao.com/"
+1522489426592	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1522489426592	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1522489426593	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1522489426775	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.taobao.com/search?q=qazxjdoel&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20170306"
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 26: SyntaxError: expected expression, got '<'
+1522489427800	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.taobao.com/search?q=qazxjdoel&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20170306"
+1522489763258	geckodriver	INFO	geckodriver 0.19.1
+1522489763342	geckodriver	INFO	Listening on 127.0.0.1:51158
+1522489764320	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/md/3_f8mgx13pqd2pcxj_qb5mk00000gn/T/rust_mozprofile.QpHj2WgHAUkC"
+1522489765123	Marionette	INFO	Enabled via --marionette
+2018-03-31 17:49:26.533 plugin-container[24977:3726974] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa02b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1522489767452	Marionette	INFO	Listening on port 51173
+1522489767512	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522489767577	Marionette	DEBUG	Register listener.js for window 2147483649
+1522489767620	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1522489767998	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1522489767998	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1522489768789	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.taobao.com/"
+1522489769479	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.taobao.com/"
+1522489773204	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.taobao.com/"
+1522489773410	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.taobao.com/"
+1522489773411	Marionette	DEBUG	Received DOM event "unload" for "https://www.taobao.com/"
+1522489773519	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1522489773519	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1522489773520	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1522489773642	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.taobao.com/search?q=ukiss%E6%82%A0%E7%8F%82%E6%80%9D%E5%8F%A3%E7%BA%A2&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20170306"
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 26: SyntaxError: expected expression, got '<'
+1522489775444	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.taobao.com/search?q=ukiss%E6%82%A0%E7%8F%82%E6%80%9D%E5%8F%A3%E7%BA%A2&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20170306"
+1522489775624	geckodriver	INFO	geckodriver 0.19.1
+1522489775731	geckodriver	INFO	Listening on 127.0.0.1:51362
+1522489776713	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/md/3_f8mgx13pqd2pcxj_qb5mk00000gn/T/rust_mozprofile.ihM9OMnQkVZl"
+1522489777244	Marionette	INFO	Enabled via --marionette
+2018-03-31 17:49:38.079 plugin-container[24981:3727723] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9e3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1522489778620	Marionette	INFO	Listening on port 51377
+1522489778729	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522489778777	Marionette	DEBUG	Register listener.js for window 2147483649
+1522489778808	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1522489779263	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1522489779263	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1522489780070	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.taobao.com/"
+1522489780606	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.taobao.com/"
+1522489784275	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.taobao.com/"
+1522489784431	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.taobao.com/"
+1522489784433	Marionette	DEBUG	Received DOM event "unload" for "https://www.taobao.com/"
+1522489784543	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1522489784543	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1522489784543	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1522489784652	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.taobao.com/search?q=qazxjdoel&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20170306"
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 26: SyntaxError: expected expression, got '<'
+1522489785535	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.taobao.com/search?q=qazxjdoel&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20170306"
+1522489785713	geckodriver	INFO	geckodriver 0.19.1
+1522489785806	geckodriver	INFO	Listening on 127.0.0.1:51529
+1522489786813	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/md/3_f8mgx13pqd2pcxj_qb5mk00000gn/T/rust_mozprofile.W5wzAFSlvOfi"
+1522489787348	Marionette	INFO	Enabled via --marionette
+2018-03-31 17:49:48.170 plugin-container[24984:3728451] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa033, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1522489788702	Marionette	INFO	Listening on port 51544
+1522489788735	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522489788792	Marionette	DEBUG	Register listener.js for window 2147483649
+1522489788824	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1522489789380	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1522489789380	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1522489790647	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.taobao.com/"
+1522489791059	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.taobao.com/"
+1522489794720	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.taobao.com/"
+1522489795162	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.taobao.com/"
+1522489795162	Marionette	DEBUG	Received DOM event "unload" for "https://www.taobao.com/"
+1522489795311	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1522489795311	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1522489795312	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1522489795477	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.taobao.com/search?q=%E7%BE%BD%E7%BB%92%E6%9C%8D&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20170306"
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 26: SyntaxError: expected expression, got '<'
+1522489797202	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.taobao.com/search?q=%E7%BE%BD%E7%BB%92%E6%9C%8D&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20170306"

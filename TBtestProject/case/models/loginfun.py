@@ -1,6 +1,6 @@
 from selenium import webdriver
 
-from TBtestProject.case.pages.LoginPage import LoginPage
+from TBtestProject.case.pages.loginpage import LoginPage
 
 class Login():
     """

@@ -2,8 +2,8 @@ import unittest
 
 from selenium import webdriver
 
-from TBtestProject.case.pages.LoginPage import LoginPage
-from TBtestProject.case.pages.MyTbPage import MyTbPage
+from TBtestProject.case.pages.loginpage import LoginPage
+from TBtestProject.case.pages.mytbpage import MyTbPage
 
 
 class Login(unittest.TestCase):
@@ -22,6 +22,7 @@ class Login(unittest.TestCase):
         pass
 
     def test_login(self):
+        '登录功能测试'
         self.logindriver.send_name(Login.username)     # 输入用户名
         self.logindriver.send_psw(Login.password)      # 输入密码
         self.logindriver.login()
@@ -34,8 +35,7 @@ class Login(unittest.TestCase):
 
     @classmethod
     def tearDownClass(cls):
-        #cls.driver.close()
-        pass
+        cls.driver.close()
 
 if __name__ == '__main__':
     unittest.main()

@@ -6,14 +6,12 @@ from selenium.webdriver import ActionChains
 
 
 class BasePage(object):
-
     """
     基于selenium二次封装
     """
-
-    MAXTIMEOUT = 6      # 设置最大超时时间为6s
+    MAXTIMEOUT = 6       # 设置最大超时时间为6s
     MINTIMEOUT = 3       # 设置最小超时时间为3s
-    INTERVAL = 0.5    # 设置每隔0.5秒查找一次元素
+    INTERVAL = 0.5       # 设置每隔0.5秒查找一次元素
 
     def __init__(self, driver):
         self.driver = driver
@@ -73,6 +71,22 @@ class BasePage(object):
 
     def execute_script(self, js_command):
         self.driver.execute_script(js_command)
+
+    def get_dict_id(target_dict, target):
+        """通过value值，获取在字典中对应的key值"""
+        return [k for k, v in target_dict.items() if v == target]
+
+    def switch_to_alert_and_confirm(self):
+        """切换到弹出框"""
+        self.driver.switch_to_alert().accept()
+
+    def go_back(self):
+        """后退到上一页"""
+        self.driver.back()
+
+    def refresh_(self):
+        """刷新"""
+        self.driver.refresh()
 
 if __name__ == "__main__":
     driver = webdriver.Chrome()

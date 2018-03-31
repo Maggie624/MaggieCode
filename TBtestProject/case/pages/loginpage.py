@@ -3,7 +3,7 @@ from selenium import webdriver
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.action_chains import ActionChains
 
-from TBtestProject.case.models.BasePage import BasePage
+from TBtestProject.case.models.basepage import BasePage
 
 class LoginPage(BasePage):
 

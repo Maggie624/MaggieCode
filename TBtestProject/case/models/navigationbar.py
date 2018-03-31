@@ -3,7 +3,7 @@ import random
 from selenium import webdriver
 from selenium.webdriver import ActionChains
 import time
-from TBtestProject.case.models.BasePage import BasePage
+from TBtestProject.case.models.basepage import BasePage
 
 class NavigationBar(BasePage):
     """ 封装导航栏元素及其方法 """
@@ -38,14 +38,15 @@ class NavigationBar(BasePage):
         self.execute_script(js_find_region_item)
 
     @staticmethod
-    def get_keys(value):
-        return [k for k, v in NavigationBar.region_dicts.items() if v == value]
+    def get_language_id(value):
+        return BasePage.get_dict_id(NavigationBar.region_dicts, value)
+        # return [k for k, v in NavigationBar.region_dicts.items() if v == value]
 
     def switch_language(self, languange, driver):
         """切换语言"""
         region_select = self.find_element(NavigationBar.region)
         self.moveToele(driver, region_select)
-        num = NavigationBar.get_keys(languange)
+        num = NavigationBar.get_language_id(languange)
         print("num===", end=' ')
         print(num)
         self.SWITCH_ACTION(num)
@@ -133,7 +134,7 @@ if __name__ == "__main__":
     driver.back()
     barDriver.switch_to_bought_item(driver)
     driver.back()
-    barDriver.switch_language('加拿大')
+    barDriver.switch_language('加拿大',driver)
 
 
 
