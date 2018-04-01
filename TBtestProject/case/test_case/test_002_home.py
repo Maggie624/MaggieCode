@@ -5,7 +5,7 @@ from TBtestProject.case.pages.resultitempage import ResultItemPage
 
 
 class Home(unittest.TestCase):
-
+    """淘宝网主页功能测试"""
     def setUp(self):
         self.driver = webdriver.Firefox()
         self.homedriver = HomePage(self.driver)

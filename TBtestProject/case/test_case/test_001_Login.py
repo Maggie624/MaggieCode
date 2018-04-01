@@ -7,7 +7,7 @@ from TBtestProject.case.pages.mytbpage import MyTbPage
 
 
 class Login(unittest.TestCase):
-
+    """登录功能测试"""
     username = 'xxxxxxxxxx'
     password = 'xxxxxxxxxx'
 
