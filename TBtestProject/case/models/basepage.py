@@ -1,3 +1,4 @@
+import re
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -9,9 +10,6 @@ class BasePage(object):
     """
     基于selenium二次封装
     """
-    MAXTIMEOUT = 6       # 设置最大超时时间为6s
-    MINTIMEOUT = 3       # 设置最小超时时间为3s
-    INTERVAL = 0.5       # 设置每隔0.5秒查找一次元素
 
     def __init__(self, driver):
         self.driver = driver
@@ -72,9 +70,12 @@ class BasePage(object):
     def execute_script(self, js_command):
         self.driver.execute_script(js_command)
 
+    @staticmethod
     def get_dict_id(target_dict, target):
-        """通过value值，获取在字典中对应的key值"""
-        return [k for k, v in target_dict.items() if v == target]
+        """
+        return: 在字典中对应的key值,int型
+        """
+        return [k for k, v in target_dict.items() if v == target][0]
 
     def switch_to_alert_and_confirm(self):
         """切换到弹出框"""
@@ -87,6 +88,14 @@ class BasePage(object):
     def refresh_(self):
         """刷新"""
         self.driver.refresh()
+
+    @staticmethod
+    def filter_to_get_word(item):
+        """获取字符串中的中文字符"""
+        res = re.sub('[A-Za-z0-9\!\%\[\]\,\。\.\<\>\"\?\=\=\:\：\;\&\//\/\_]', '', item)
+        return res.replace(' ', '')
+
+
 
 if __name__ == "__main__":
     driver = webdriver.Chrome()

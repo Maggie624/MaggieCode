@@ -1,49 +1,46 @@
-from selenium import webdriver
-
 from TBtestProject.case.pages.loginpage import LoginPage
 
-class Login():
+class Login:
     """
-    Usage: 封装登录页面需要调用的方法
+    Usage: 封装登录方法
     """
-
     DEFAULT_NAME = 'xxxxxxxxxxx'
     DEFAULT_PSW = 'xxxxxxxxxxxx'
     cookies = []
 
     AUTO_IN = False          # 是否可以实现Cookies登录的标识位
 
-    # 登 录(常规流程)
-    @classmethod
-    def login(cls, driver, username=DEFAULT_NAME, password=DEFAULT_PSW):
+    @staticmethod
+    def login_auto(driver):
+        """Cookies自动登录"""
+        if not Login.AUTO_IN:
+            Login.login_normal(driver)
+            return
+        for cookie in Login.cookies:
+            driver.add_cookie({'name': cookie['name'], 'value': cookie['value']})
+        driver.refresh()
+
+    @staticmethod
+    def login_normal(driver, username=DEFAULT_NAME, password=DEFAULT_PSW):
+        """登 录(常规流程)"""
         mydriver = LoginPage(driver)
         mydriver.open("https://login.taobao.com")
         mydriver.send_name(username)
         mydriver.send_psw(password)
         mydriver.login()
 
-    @classmethod
-    def pre_Auto(cls, driver):
+    @staticmethod
+    def collec_cookies(driver):
+        """登录后获取cookies"""
         Login.cookies = driver.get_cookies()
         print("===============cookies=================")
         print(Login.cookies)
         print("===============cookies=================")
         Login.AUTO_IN = True
 
-    # Cookies登录
-    @classmethod
-    def login_auto(cls, driver):
-
-        if not Login.AUTO_IN:
-            cls.login(driver)
-            return
-        for cookie in Login.cookies:
-            driver.add_cookie({'name': cookie['name'], 'value': cookie['value']})
-        driver.refresh()
 
     # 退 出
-    @classmethod
-    def logout(cls):
+    def logout(self):
         pass
 
 

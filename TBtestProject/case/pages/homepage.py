@@ -1,14 +1,13 @@
 import selenium
 import time
 from selenium import webdriver
+from selenium.webdriver import ActionChains
 
 from TBtestProject.case.models.basepage import BasePage
 from TBtestProject.case.models.navigationbar import NavigationBar
 
 class HomePage(NavigationBar):
-    """
-    封装主页元素及其方法
-    """
+    """封装主页元素及其方法"""
     _search_text = ('id', 'q')
     _search_btn = ('xpath', '//button[@type="submit"]')
     search_models = {0: "宝贝", 1: "天猫", 2: "店铺"}
@@ -21,7 +20,6 @@ class HomePage(NavigationBar):
         return: 返回元素id
         """
         return BasePage.get_dict_id(HomePage.search_models, model)
-        # return [k for k, v in HomePage.search_models.items() if v == model]
 
     def switch_search_model(self, model):
         """
@@ -29,53 +27,43 @@ class HomePage(NavigationBar):
                目前的可选模式为：按宝贝搜索、按天猫搜索、按店铺搜索
         """
         id = self.get_model_id(model)
-        print('id ====', end='')
-        print(id)
-        # js = 'var ul_item = document.getElementsByClassName("ks-switchable-nav")[0]; ' \
-        #      'var lists = ul_item.getElementsByTagName("li");' \
-        #      'var item = lists'+str(id)+';' \
-        #      'alert(item.innerText);'
-        # self.execute_script(js)
-        # time.sleep(0.6)
-        # self.switch_to_alert_and_confirm()
+        print("the search model to be selected is:" + ''.join(HomePage.search_models[id]))
         js_command = 'var ul_item = document.getElementsByClassName("ks-switchable-nav")[0]; ' \
                      'var lists = ul_item.getElementsByTagName("li");' \
-                     'lists'+str(id)+'.click();'
+                     'lists['+str(id)+'].click();'
         self.execute_script(js_command)
         print("已切换到"+model+"搜索模式")
 
     def item_search(self, item):
-        """
-        搜索宝贝
-        """
+        """搜索宝贝"""
         self.switch_search_model('宝贝')
         self.sendKeys(HomePage._search_text, item)
         self.click(HomePage._search_btn)
 
     def tianmao_search(self, item):
-        """
-        在天猫中搜索
-        """
+        """在天猫中搜索"""
         self.switch_search_model('天猫')
         self.sendKeys(HomePage._search_text, item)
         self.click(HomePage._search_btn)
 
     def shop_search(self, item):
-        """
-        搜索店铺
-        """
+        """搜索店铺"""
         self.switch_search_model('店铺')
         self.sendKeys(HomePage._search_text, item)
         self.click(HomePage._search_btn)
 
     def get_default_search_text(self):
         """获取搜索框中的默认文字"""
-        return self.find_element(HomePage.default_search_text).get_attribute('innerHTML')
+        innerHTML = self.find_element(HomePage.default_search_text).get_attribute('innerHTML')
+        return BasePage.filter_to_get_word(innerHTML)
 
 if __name__ == "__main__":
-    driver = webdriver.Firefox()
+    driver = webdriver.Chrome()
     homedriver = HomePage(driver)
     homedriver.open('https://www.taobao.com/')
+
+
+    homedriver.switch_region(driver, '韩国')
 
     homedriver.tianmao_search("羽绒服")
     homedriver.go_back()
@@ -87,8 +75,4 @@ if __name__ == "__main__":
     homedriver.go_back()
 
     e = homedriver.get_default_search_text()
-    print("text==="+e)
-
-    homedriver.switch_language('韩国', driver)
-
-
+    print("default text==="+e)

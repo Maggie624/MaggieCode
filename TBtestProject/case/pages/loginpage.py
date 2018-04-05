@@ -1,6 +1,6 @@
 import time
 from selenium import webdriver
-from selenium.common.exceptions import TimeoutException
+from selenium.common.exceptions import TimeoutException, ElementNotInteractableException
 from selenium.webdriver.common.action_chains import ActionChains
 
 from TBtestProject.case.models.basepage import BasePage
@@ -16,36 +16,33 @@ class LoginPage(BasePage):
     form_item = ('id', 'J_Form')                  # 表单ID
     scan_tip = ('class name', 'ft-gray')          # 二维码下方"扫一扫登录"文字
     slider = ('id', 'nc_1_n1z')                   # 滑块
-
-    LOGINFLAG = False              # 登陆方式，True为用户名密码登录，False为扫码登录
+    error_hint = ('xpath', '//div[@id="J_Message"]/p')          # 登录失败的原因提示
 
     def switch_to_psw_login(self):
         """Usage: 切换到用户名密码登陆框"""
-
         self.click(LoginPage.switch_login_mode)
         LoginPage.LOGINFLAG = True
 
     def switch_model(self):
         """ 切换登录方式，实际的切换操作在 switch_to_psw_login 中执行 """
-        scan_img = self.find_element(LoginPage.scan_tip)
-        # 查找二维码图片，存在则需要切换登陆方式为用户名、密码登录
-        if scan_img:
+        try:
+            scan_img = self.find_element(LoginPage.scan_tip) # 查找二维码图片，存在则需要切换登陆方式为用户名、密码登录
+        except ElementNotInteractableException:
+            print("当前在用户名密码登录模式")
+        else:
             self.switch_to_psw_login()
 
     def send_name(self, name):
         """ 输入用户名 """
         # 输入用户名
         # 首先判断当前是否为用户名密码登录方式，不是则需要切换登录方式
-        if LoginPage.LOGINFLAG == False: self.switch_model()
+        self.switch_model()
         self.sendKeys(LoginPage.username, name)
         time.sleep(0.5)
         print('send username sucessfully!!!')
 
     def send_psw(self, psw):
         """ 输入密码 """
-
-        # 首先判断当前是否为用户名密码登录方式，不是则需要切换登录方式
-        if LoginPage.LOGINFLAG == False: self.switch_model()
         self.sendKeys(LoginPage.psw, psw)
         time.sleep(0.5)
         print('send password sucessfully!!!')
@@ -62,7 +59,7 @@ class LoginPage(BasePage):
     def dragSlider(self):
         """ 拖动滑动条，实际的拖拉操作在 ACTION_DRAG 中执行 """
         try:
-            self.find_element(LoginPage.slider)
+            a = self.find_element(LoginPage.slider)
             self.ACTION_DRAG()
         except TimeoutException:
             print("不需要滑动验证")
@@ -72,7 +69,16 @@ class LoginPage(BasePage):
         """ 登录 """
         self.dragSlider()
         time.sleep(0.1)
+        self.click_login_btn()
+
+    def click_login_btn(self):
+        """点击登录按钮"""
         self.find_element(LoginPage.form_item).submit()
+        time.sleep(1)
+
+    def get_error_hint(self):
+        """return：登录失败的提示"""
+        return self.find_element(LoginPage.error_hint).get_attribute('innerHTML')
 
 if __name__ == "__main__":
 
@@ -82,4 +88,5 @@ if __name__ == "__main__":
     logindriver.send_name("xxxxxxxxx")
     logindriver.send_psw("xxxxxxxx")
     logindriver.login()
+    print(logindriver.get_error_hint())
 

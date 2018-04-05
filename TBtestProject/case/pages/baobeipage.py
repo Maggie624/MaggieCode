@@ -3,7 +3,7 @@ from selenium import webdriver
 from TBtestProject.case.pages.homepage import HomePage
 
 
-class ResultItemPage(NavigationBar):
+class BaobeiPage(NavigationBar):
     """
     封装按照宝贝搜索的结果页面的元素及方法
     """
@@ -16,7 +16,7 @@ class ResultItemPage(NavigationBar):
         """
         return: 搜索栏中的文字
         """
-        return self.find_element(ResultItemPage.search_text).get_attribute('value')
+        return self.find_element(BaobeiPage.search_text).get_attribute('value')
 
     def get_logo(self):
         """
@@ -25,14 +25,14 @@ class ResultItemPage(NavigationBar):
         """
 
         try:
-            self.find_element(ResultItemPage.logo)
+            self.find_element(BaobeiPage.logo)
             return True
         except TimeoutError as e:
             print("error:%s" % e.args)
             return False
 
     def get_not_exist_hint(self):
-        flag = self.find_element(ResultItemPage.not_exist_flag)
+        flag = self.find_element(BaobeiPage.not_exist_flag)
         return flag.get_attribute('innerHTML')
 
 
@@ -40,7 +40,7 @@ if __name__ == "__main__":
     driver = webdriver.Firefox()
     homedriver = HomePage(driver)
     homedriver.open("https://www.taobao.com/")
-    itemdriver = ResultItemPage(driver)
+    itemdriver = BaobeiPage(driver)
 
     homedriver.item_search("羽绒服")
     it = itemdriver.get_search_text()
@@ -48,5 +48,5 @@ if __name__ == "__main__":
     itemdriver.go_back()
 
     homedriver.item_search('keijewihr')
-    item = itemdriver.find_element(ResultItemPage.not_exist_flag)
+    item = itemdriver.find_element(BaobeiPage.not_exist_flag)
     print(item.get_attribute('innerHTML'))
