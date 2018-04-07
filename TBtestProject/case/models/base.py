@@ -1,9 +1,9 @@
-import re
+
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver import ActionChains
-
+import TBtestProject.case.models.func as Func
 
 
 class BasePage(object):
@@ -57,25 +57,19 @@ class BasePage(object):
 
     def get_screenshot(self, filename):
         """ 屏幕截图 """
-        self.driver.get_screenshot_as_file(filename)
+        dir = Func.get_pngs_dir()
+        self.driver.get_screenshot_as_file(dir + '/' + filename)
 
-    def getCookies(self, driver):
+    def get_cookies(self):
         """ 获取cookies """
         return driver.get_cookies()
 
-    def moveToele(self, driver, element):
+    def move_to_element(self, driver, element):
         """ 鼠标悬停到某可见元素 """
         ActionChains(driver).move_to_element(element).perform()
 
     def execute_script(self, js_command):
         self.driver.execute_script(js_command)
-
-    @staticmethod
-    def get_dict_id(target_dict, target):
-        """
-        return: 在字典中对应的key值,int型
-        """
-        return [k for k, v in target_dict.items() if v == target][0]
 
     def switch_to_alert_and_confirm(self):
         """切换到弹出框"""
@@ -89,11 +83,13 @@ class BasePage(object):
         """刷新"""
         self.driver.refresh()
 
-    @staticmethod
-    def filter_to_get_word(item):
-        """获取字符串中的中文字符"""
-        res = re.sub('[A-Za-z0-9\!\%\[\]\,\。\.\<\>\"\?\=\=\:\：\;\&\//\/\_]', '', item)
-        return res.replace(' ', '')
+    def dismiss_alert(self):
+        """解散弹出框"""
+        self.driver.switch_to_alert().dismiss()
+
+    def accept_alert(self):
+        """接受弹出框"""
+        self.driver.switch_to_alert().accept()
 
 
 

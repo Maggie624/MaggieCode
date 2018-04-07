@@ -1,4 +1,6 @@
-from TBtestProject.case.models.basepage import BasePage
+from selenium.common.exceptions import TimeoutException
+
+from TBtestProject.case.models.base import BasePage
 from TBtestProject.case.models.navigationbar import NavigationBar
 
 
@@ -23,11 +25,12 @@ class MyTbPage(NavigationBar):
 
     def islogin(self):
         # 判断是否登录成功
-        logo = self.find_element(MyTbPage.logo)
-        if logo != None:
-            return True
-        else:
+        try:
+            self.find_element(MyTbPage.logo)
+        except TimeoutException:
             return False
+        else:
+            return True
 
     """
     TODO:

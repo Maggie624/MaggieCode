@@ -2,7 +2,8 @@ import random
 
 from selenium import webdriver
 import time
-from TBtestProject.case.models.basepage import BasePage
+from TBtestProject.case.models.base import BasePage
+import TBtestProject.case.models.func as Func
 
 class NavigationBar(BasePage):
     """ 封装导航栏元素及其方法 """
@@ -42,12 +43,12 @@ class NavigationBar(BasePage):
     @staticmethod
     def get_region_id(value):
         """ 获取目标地区在region_dicts中的id """
-        return BasePage.get_dict_id(NavigationBar.region_dicts, value)
+        return Func.get_dict_id(NavigationBar.region_dicts, value)
 
     def switch_region(self, driver, region):
         """切换所属地区"""
         region_select = self.find_element(NavigationBar.region)
-        self.moveToele(driver, region_select)
+        self.move_to_element(driver, region_select)
         id = NavigationBar.get_region_id(region)
         print("the region to be selected is:" + ''.join(NavigationBar.region_dicts[id]))
         self.SWITCH_ACTION(id)
@@ -71,13 +72,13 @@ class NavigationBar(BasePage):
     def switch_to_bought_item(self, driver):
         """跳转至已买到的宝贝"""
         ele = self.find_element(NavigationBar.mytaobao)
-        self.moveToele(driver, ele)
+        self.move_to_element(driver, ele)
         self.click(NavigationBar.bought_item_list)
 
     def switch_to_myfoot(self):
         """跳转至我的足迹"""
         ele = self.find_element(NavigationBar.mytaobao)
-        self.moveToele(driver, ele)
+        self.move_to_element(driver, ele)
         self.click(NavigationBar.myfoot)
 
     def switch_to_cart(self):
@@ -91,13 +92,13 @@ class NavigationBar(BasePage):
     def switch_to_coll_item(self):
         """跳转至收藏的宝贝"""
         ele = self.find_element(NavigationBar.collection)
-        self.moveToele(driver, ele)
+        self.move_to_element(driver, ele)
         self.click(NavigationBar.item_collect)
 
     def switch_to_coll_shop(self):
         """跳转至收藏的店铺"""
         ele = self.find_element(NavigationBar.collection)
-        self.moveToele(driver, ele)
+        self.move_to_element(driver, ele)
         self.click(NavigationBar.shop_collected)
 
     def switch_to_market_list(self):

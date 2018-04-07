@@ -3,7 +3,7 @@ from selenium import webdriver
 from selenium.common.exceptions import TimeoutException, ElementNotInteractableException
 from selenium.webdriver.common.action_chains import ActionChains
 
-from TBtestProject.case.models.basepage import BasePage
+from TBtestProject.case.models.base import BasePage
 
 class LoginPage(BasePage):
 
@@ -26,7 +26,7 @@ class LoginPage(BasePage):
     def switch_model(self):
         """ 切换登录方式，实际的切换操作在 switch_to_psw_login 中执行 """
         try:
-            scan_img = self.find_element(LoginPage.scan_tip) # 查找二维码图片，存在则需要切换登陆方式为用户名、密码登录
+            self.find_element(LoginPage.scan_tip) # 查找二维码图片，存在则需要切换登陆方式为用户名、密码登录
         except ElementNotInteractableException:
             print("当前在用户名密码登录模式")
         else:
@@ -39,13 +39,15 @@ class LoginPage(BasePage):
         self.switch_model()
         self.sendKeys(LoginPage.username, name)
         time.sleep(0.5)
-        print('send username sucessfully!!!')
 
     def send_psw(self, psw):
         """ 输入密码 """
         self.sendKeys(LoginPage.psw, psw)
         time.sleep(0.5)
-        print('send password sucessfully!!!')
+
+    def send_user_psw(self, name='', psw=''):
+        self.send_name(name)
+        self.send_psw(psw)
 
     def ACTION_DRAG(self):
         """ 执行拖拉操作 """
@@ -54,7 +56,6 @@ class LoginPage(BasePage):
         action.click_and_hold(slider).perform()
         # time.sleep(0.05)
         action.move_by_offset(258, 0).perform()
-        print('drag slider sucessfully!!!')
 
     def dragSlider(self):
         """ 拖动滑动条，实际的拖拉操作在 ACTION_DRAG 中执行 """
