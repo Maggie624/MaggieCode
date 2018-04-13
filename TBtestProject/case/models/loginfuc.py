@@ -27,7 +27,7 @@ class Login:
         mydriver.open("https://login.taobao.com")
         mydriver.send_name(username)
         mydriver.send_psw(password)
-        mydriver.login()
+        mydriver._login()
 
     @staticmethod
     def collec_cookies(driver):

@@ -10,12 +10,12 @@ class LoginPage(BasePage):
     """
     封装登录页面的元素及其方法
     """
-    switch_login_mode = ('id', 'J_Quick2Static')  # 切换登录模式按钮
-    username = ('id', 'TPL_username_1')           # 用户名输入框
-    psw = ('id', 'TPL_password_1')                # 密码输入框
-    form_item = ('id', 'J_Form')                  # 表单ID
-    scan_tip = ('class name', 'ft-gray')          # 二维码下方"扫一扫登录"文字
-    slider = ('id', 'nc_1_n1z')                   # 滑块
+    switch_login_mode = ('css selector', '#J_Quick2Static')  # 切换登录模式按钮
+    username = ('css selector', '#TPL_username_1')           # 用户名输入框
+    psw = ('css selector', '#TPL_password_1')                # 密码输入框
+    form_item = ('css selector', '#J_Form')                  # 表单ID
+    scan_tip = ('css selector', '.ft-gray')          # 二维码下方"扫一扫登录"文字
+    slider = ('css selector', '#nc_1_n1z')                   # 滑块
     error_hint = ('xpath', '//div[@id="J_Message"]/p')          # 登录失败的原因提示
 
     def switch_to_psw_login(self):
@@ -49,6 +49,11 @@ class LoginPage(BasePage):
         self.send_name(name)
         self.send_psw(psw)
 
+    def click_login_btn(self):
+        """点击登录按钮"""
+        self.find_element(LoginPage.form_item).submit()
+        time.sleep(1)
+
     def ACTION_DRAG(self):
         """ 执行拖拉操作 """
         slider = self.find_element(LoginPage.slider)
@@ -65,17 +70,22 @@ class LoginPage(BasePage):
         except TimeoutException:
             print("不需要滑动验证")
 
-
-    def login(self):
-        """ 登录 """
+    def _login(self):
+        """ 最后的登录步骤
+            如有有滑块要先拖动滑块，再点击登录按钮
+        """
         self.dragSlider()
         time.sleep(0.1)
         self.click_login_btn()
 
-    def click_login_btn(self):
-        """点击登录按钮"""
-        self.find_element(LoginPage.form_item).submit()
-        time.sleep(1)
+    def login(self, username, psw):
+        """
+        Useage: 登录
+        param username: 用户名
+        param psw: 密码
+        """
+        self.send_user_psw(username, psw)
+        self._login()
 
     def get_error_hint(self):
         """return：登录失败的提示"""
@@ -88,6 +98,6 @@ if __name__ == "__main__":
     logindriver.open("https://login.taobao.com")
     logindriver.send_name("xxxxxxxxx")
     logindriver.send_psw("xxxxxxxx")
-    logindriver.login()
+    logindriver._login()
     print(logindriver.get_error_hint())
 
