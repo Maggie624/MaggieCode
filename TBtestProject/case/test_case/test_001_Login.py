@@ -7,7 +7,6 @@ from selenium.common.exceptions import UnexpectedAlertPresentException
 from TBtestProject.case.models.mytestcase import MyTestCase
 from TBtestProject.case.pages.loginpage import LoginPage
 from TBtestProject.case.pages.mytbpage import MyTbPage
-import TBtestProject.case.models.func as Func
 from TBtestProject.data.excel_utils import ExcelUtil
 
 test_datas = ExcelUtil(sheetName='login').dict_data()
@@ -23,7 +22,7 @@ class Login(MyTestCase):
         pass
 
     def setUp(self):
-        self.driver = webdriver.Firefox()
+        self.driver = webdriver.Chrome()
         self.logindriver = LoginPage(self.driver)
         self.mytbdriver = MyTbPage(self.driver)
         self.logindriver.open('https://login.taobao.com')
@@ -38,7 +37,7 @@ class Login(MyTestCase):
         self.logindriver.login('', '')
         a = self.assertEqual('请输入账户名和密码',
                              self.logindriver.get_error_hint(),
-                             msg=Func.get_current_func_name())
+                             msg=self._testMethodName)
         print(a)
 
     def test_02_login_psw_null(self):
@@ -46,29 +45,29 @@ class Login(MyTestCase):
         self.logindriver.login('18000000000', '')
         self.assertEqual('请输入密码',
                          self.logindriver.get_error_hint(),
-                         msg=Func.get_current_func_name())
+                         msg=self._testMethodName)
 
     def test_03_login_user_null(self):
         '用户名为空，登录'
         self.logindriver.login('', 'qazwsxedcrfv180000')
         self.assertEqual('请填写账户名',
                          self.logindriver.get_error_hint(),
-                         msg=Func.get_current_func_name())
+                         msg=self._testMethodName)
 
     def test_04_login_fail(self):
         '用户名和密码不匹配'
         self.logindriver.login('18000000000', 'qazwsxedcrfv180000')
         self.assertEqual('你输入的密码和账户名不匹配，是否忘记密码或忘记会员名',
                          self.logindriver.get_error_hint(),
-                         msg=Func.get_current_func_name())
+                         msg=self._testMethodName)
 
     def test_05_login_success(self):
         '正确的账号密码，登录'
-        username = 'xxxxxxxxxxxx'
-        password = 'xxxxxxxxxxxx'
+        username = 'xxxxxxxx'
+        password = 'xxxxxxx'
         self.logindriver.login(username, password)
         self.assertTrue(self.mytbdriver.islogin(),
-                        msg=Func.get_current_func_name())
+                        msg=self._testMethodName)
 
     def tearDown(self):
         self.driver.quit()

@@ -1,11 +1,9 @@
 import selenium
 import time
 from selenium import webdriver
-from selenium.webdriver import ActionChains
-import TBtestProject.case.models.func as Func
+from ...case.models.func import *
 
-from TBtestProject.case.models.base import BasePage
-from TBtestProject.case.models.navigationbar import NavigationBar
+from ...case.models.navigationbar import NavigationBar
 
 class HomePage(NavigationBar):
     """封装主页元素及其方法"""
@@ -20,7 +18,7 @@ class HomePage(NavigationBar):
         Usage：查找切换模式需要点击的元素
         return: 返回元素id
         """
-        return Func.get_dict_id(HomePage.search_models, model)
+        return get_dict_id(HomePage.search_models, model)
 
     def switch_search_model(self, model):
         """
@@ -56,7 +54,7 @@ class HomePage(NavigationBar):
     def get_default_search_text(self):
         """获取搜索框中的默认文字"""
         innerHTML = self.find_element(HomePage.default_search_text).get_attribute('innerHTML')
-        return Func.filter_to_get_word(innerHTML)
+        return filter_to_get_word(innerHTML)
 
 if __name__ == "__main__":
     driver = webdriver.Chrome()

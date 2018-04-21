@@ -1,7 +1,5 @@
 from selenium.common.exceptions import TimeoutException
-
-from TBtestProject.case.models.base import BasePage
-from TBtestProject.case.models.navigationbar import NavigationBar
+from ...case.models.navigationbar import NavigationBar
 
 
 class MyTbPage(NavigationBar):

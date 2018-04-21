@@ -3,8 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver import ActionChains
-import TBtestProject.case.models.func as Func
-
+from ...case.models.func import *
 
 class BasePage(object):
     """
@@ -57,7 +56,7 @@ class BasePage(object):
 
     def get_screenshot(self, filename):
         """ 屏幕截图 """
-        dir = Func.get_pngs_dir()
+        dir = get_pngs_dir()
         self.driver.get_screenshot_as_file(dir + '/' + filename)
 
     def get_cookies(self):

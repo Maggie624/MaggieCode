@@ -3,7 +3,7 @@ from selenium import webdriver
 from selenium.common.exceptions import TimeoutException, ElementNotInteractableException
 from selenium.webdriver.common.action_chains import ActionChains
 
-from TBtestProject.case.models.base import BasePage
+from ...case.models.base import BasePage
 
 class LoginPage(BasePage):
 
@@ -65,7 +65,7 @@ class LoginPage(BasePage):
     def dragSlider(self):
         """ 拖动滑动条，实际的拖拉操作在 ACTION_DRAG 中执行 """
         try:
-            a = self.find_element(LoginPage.slider)
+            self.find_element(LoginPage.slider)
             self.ACTION_DRAG()
         except TimeoutException:
             print("不需要滑动验证")

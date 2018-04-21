@@ -1,6 +1,6 @@
-from TBtestProject.case.models.navigationbar import NavigationBar
+from ...case.models.navigationbar import NavigationBar
 from selenium import webdriver
-from TBtestProject.case.pages.homepage import HomePage
+from ...case.pages.homepage import HomePage
 
 
 class BaobeiPage(NavigationBar):

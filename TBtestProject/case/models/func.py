@@ -27,5 +27,5 @@ def filter_to_get_word(item):
     return res.replace(' ', '')
 
 def get_current_func_name():
-    """return:当前的函数名"""
+    """return:当前的方法名"""
     return inspect.stack()[1][3]

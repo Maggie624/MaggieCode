@@ -1,6 +1,7 @@
 import unittest
-import time
+
 from TBtestProject.case.models.base import BasePage
+
 
 class MyTestCase(unittest.TestCase, BasePage):
     """封装断言方法"""

@@ -2,8 +2,9 @@ import random
 
 from selenium import webdriver
 import time
-from TBtestProject.case.models.base import BasePage
-import TBtestProject.case.models.func as Func
+from ...case.models.func import *
+from ...case.models.base import BasePage
+
 
 class NavigationBar(BasePage):
     """ 封装导航栏元素及其方法 """
@@ -43,7 +44,7 @@ class NavigationBar(BasePage):
     @staticmethod
     def get_region_id(value):
         """ 获取目标地区在region_dicts中的id """
-        return Func.get_dict_id(NavigationBar.region_dicts, value)
+        return get_dict_id(NavigationBar.region_dicts, value)
 
     def switch_region(self, driver, region):
         """切换所属地区"""
@@ -128,14 +129,15 @@ if __name__ == "__main__":
     barDriver = NavigationBar(driver)
     barDriver.open('https://www.taobao.com/')
 
-    # barDriver.click(NavigationBar.login)
-    # driver.back()
-    # barDriver.click(NavigationBar.surfBymobile)
-    # driver.back()
-    # barDriver.click(NavigationBar.myTaobao)
-    # driver.back()
-    # barDriver.click(NavigationBar.cart)
-    # driver.back()
+    barDriver.click(NavigationBar.login)
+    driver.back()
+    barDriver.click(NavigationBar.mobileSurf)
+    driver.back()
+    barDriver.click(NavigationBar.mytaobao)
+    driver.back()
+    barDriver.click(NavigationBar.cart)
+    driver.back()
+
     barDriver.switch_to_bought_item(driver)
     driver.back()
 

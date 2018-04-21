@@ -9,6 +9,7 @@ from TBtestProject.data import mail
 import smtplib
 #from TBtestProject.case.models.HTMLTestRunner import HTMLTestRunner
 
+
 def add_cases(test_dir, pattern='test_*.py'):
     """加载测试用例"""
     discover = unittest.defaultTestLoader.discover(test_dir, pattern=pattern)
