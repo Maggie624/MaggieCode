@@ -8,6 +8,7 @@ from TBtestProject.case.models.mytestcase import MyTestCase
 from TBtestProject.case.pages.loginpage import LoginPage
 from TBtestProject.case.pages.mytbpage import MyTbPage
 from TBtestProject.data.excel_utils import ExcelUtil
+from TBtestProject.case.models.HTMLTestRunner import _previou_case_result
 
 test_datas = ExcelUtil(sheetName='login').dict_data()
 
@@ -34,6 +35,10 @@ class Login(MyTestCase):
 
     def test_01_login_user_psw_null(self):
         '用户名、密码为空，登录'
+        print('========status=========')
+        print(_previou_case_result[0])
+        if _previou_case_result[0] == 0:
+            raise unittest.SkipTest('已经测试通过')
         self.logindriver.login('', '')
         a = self.assertEqual('请输入账户名和密码',
                              self.logindriver.get_error_hint(),
@@ -42,6 +47,10 @@ class Login(MyTestCase):
 
     def test_02_login_psw_null(self):
         '密码为空,登录'
+        print('========status=========')
+        print(_previou_case_result[0])
+        if _previou_case_result[0] == 0:
+            raise unittest.SkipTest('已经测试通过')
         self.logindriver.login('18000000000', '')
         self.assertEqual('请输入密码',
                          self.logindriver.get_error_hint(),
@@ -49,6 +58,10 @@ class Login(MyTestCase):
 
     def test_03_login_user_null(self):
         '用户名为空，登录'
+        print('========status=========')
+        print(_previou_case_result[0])
+        if _previou_case_result[0] == 0:
+            raise unittest.SkipTest('已经测试通过')
         self.logindriver.login('', 'qazwsxedcrfv180000')
         self.assertEqual('请填写账户名',
                          self.logindriver.get_error_hint(),

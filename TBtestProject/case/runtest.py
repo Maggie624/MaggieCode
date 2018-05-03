@@ -3,12 +3,13 @@ import os
 from email.header import Header
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-from HTMLTestRunner import HTMLTestRunner
+# from HTMLTestRunner import HTMLTestRunner
 import time
+
 from TBtestProject.data import mail
 import smtplib
-#from TBtestProject.case.models.HTMLTestRunner import HTMLTestRunner
-
+from TBtestProject.case.models.HTMLTestRunner import HTMLTestRunner
+# from HTMLTestRunner import HTMLTestRunner
 
 def add_cases(test_dir, pattern='test_*.py'):
     """加载测试用例"""
