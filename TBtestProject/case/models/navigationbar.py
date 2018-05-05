@@ -2,8 +2,8 @@ import random
 
 from selenium import webdriver
 import time
-from ...case.models.func import *
-from ...case.models.base import BasePage
+from case.models.func import *
+from case.models.base import BasePage
 
 
 class NavigationBar(BasePage):

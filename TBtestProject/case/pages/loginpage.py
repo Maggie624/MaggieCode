@@ -3,7 +3,7 @@ from selenium import webdriver
 from selenium.common.exceptions import TimeoutException, ElementNotInteractableException
 from selenium.webdriver.common.action_chains import ActionChains
 
-from ...case.models.base import BasePage
+from case.models.base import BasePage
 
 class LoginPage(BasePage):
 
@@ -32,7 +32,7 @@ class LoginPage(BasePage):
         else:
             self.switch_to_psw_login()
 
-    def send_name(self, name):
+    def _send_name(self, name):
         """ 输入用户名 """
         # 输入用户名
         # 首先判断当前是否为用户名密码登录方式，不是则需要切换登录方式
@@ -40,43 +40,44 @@ class LoginPage(BasePage):
         self.sendKeys(LoginPage.username, name)
         time.sleep(0.5)
 
-    def send_psw(self, psw):
+    def _send_psw(self, psw):
         """ 输入密码 """
         self.sendKeys(LoginPage.psw, psw)
         time.sleep(0.5)
 
-    def send_user_psw(self, name='', psw=''):
-        self.send_name(name)
-        self.send_psw(psw)
+    def _send_user_psw(self, name='', psw=''):
+        self._send_name(name)
+        self._send_psw(psw)
 
-    def click_login_btn(self):
+    def _click_login_btn(self):
         """点击登录按钮"""
         self.find_element(LoginPage.form_item).submit()
         time.sleep(1)
 
     def ACTION_DRAG(self):
-        """ 执行拖拉操作 """
+        """ 执行拖拉验证滑块的操作 """
         slider = self.find_element(LoginPage.slider)
         action = ActionChains(self.driver)
-        action.click_and_hold(slider).perform()
-        # time.sleep(0.05)
-        action.move_by_offset(258, 0).perform()
+        action.click_and_hold(slider)
+        action.move_by_offset(258, 0)
+        action.release(slider)
+        action.perform()
 
-    def dragSlider(self):
+    def _dragSlider(self):
         """ 拖动滑动条，实际的拖拉操作在 ACTION_DRAG 中执行 """
-        try:
-            self.find_element(LoginPage.slider)
+        flag = self.is_visible(LoginPage.slider)
+        if flag:
             self.ACTION_DRAG()
-        except TimeoutException:
+        else:
             print("不需要滑动验证")
 
     def _login(self):
         """ 最后的登录步骤
             如有有滑块要先拖动滑块，再点击登录按钮
         """
-        self.dragSlider()
-        time.sleep(0.1)
-        self.click_login_btn()
+        self._dragSlider()
+        time.sleep(0.3)
+        self._click_login_btn()
 
     def login(self, username, psw):
         """
@@ -84,7 +85,7 @@ class LoginPage(BasePage):
         param username: 用户名
         param psw: 密码
         """
-        self.send_user_psw(username, psw)
+        self._send_user_psw(username, psw)
         self._login()
 
     def get_error_hint(self):

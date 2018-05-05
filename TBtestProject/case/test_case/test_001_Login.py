@@ -4,11 +4,11 @@ import time
 from selenium import webdriver
 from selenium.common.exceptions import UnexpectedAlertPresentException
 
-from TBtestProject.case.models.mytestcase import MyTestCase
-from TBtestProject.case.pages.loginpage import LoginPage
-from TBtestProject.case.pages.mytbpage import MyTbPage
-from TBtestProject.data.excel_utils import ExcelUtil
-from TBtestProject.case.models.HTMLTestRunner import _previou_case_result
+from case.models.mytestcase import MyTestCase
+from case.pages.loginpage import LoginPage
+from case.pages.mytbpage import MyTbPage
+from data.excel_utils import ExcelUtil
+from case.models.HTMLTestRunner import _previou_case_result
 
 test_datas = ExcelUtil(sheetName='login').dict_data()
 
@@ -23,7 +23,7 @@ class Login(MyTestCase):
         pass
 
     def setUp(self):
-        self.driver = webdriver.Chrome()
+        self.driver = webdriver.Firefox()
         self.logindriver = LoginPage(self.driver)
         self.mytbdriver = MyTbPage(self.driver)
         self.logindriver.open('https://login.taobao.com')
@@ -76,11 +76,12 @@ class Login(MyTestCase):
 
     def test_05_login_success(self):
         '正确的账号密码，登录'
-        username = 'xxxxxxxx'
-        password = 'xxxxxxx'
+        username = 'xxxxxxxxx'
+        password = 'xxxxxxxx'
         self.logindriver.login(username, password)
         self.assertTrue(self.mytbdriver.islogin(),
                         msg=self._testMethodName)
+
 
     def tearDown(self):
         self.driver.quit()

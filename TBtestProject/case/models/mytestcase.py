@@ -1,6 +1,6 @@
 import unittest
 
-from TBtestProject.case.models.base import BasePage
+from case.models.base import BasePage
 
 
 class MyTestCase(unittest.TestCase, BasePage):

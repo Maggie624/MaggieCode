@@ -1,9 +1,10 @@
 
 from selenium import webdriver
+from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver import ActionChains
-from ...case.models.func import *
+from case.models.func import *
 
 class BasePage(object):
     """
@@ -47,12 +48,13 @@ class BasePage(object):
         # 判断元素是否可见
         # 设置查找元素的超时时间为 3 秒，每隔 0.5 秒搜索一次
         # 返回 Boolean 值
-        element = WebDriverWait(self.driver, 3, 0.5)\
-            .until(EC.visibility_of_element_located(locator))
-        if element:
-            return True
-        else:
-            return False
+        try:
+            WebDriverWait(self.driver, 2, 0.5).until(EC.visibility_of_element_located(locator))
+            isdisplay = True
+        except TimeoutException:
+            isdisplay = False
+        print('isdisplay==', isdisplay)
+        return isdisplay
 
     def get_screenshot(self, filename):
         """ 屏幕截图 """
@@ -89,6 +91,27 @@ class BasePage(object):
     def accept_alert(self):
         """接受弹出框"""
         self.driver.switch_to_alert().accept()
+
+    def curr_window_handle(self):
+        '获得当前句柄'
+        handle = self.driver.current_window_handle
+        return handle
+
+    def get_window_handles(self):
+        '获得当前所有打开的句柄'
+        handles = self.driver.window_handles
+        return handles
+
+    def switch_to_window(self, handle):
+        '切换窗口'
+        self.driver.switch_to.window(handle)
+
+    def close_tap(self):
+        self.driver.close()
+
+    def close_browser(self):
+        self.driver.quit()
+
 
 
 
