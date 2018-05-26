@@ -13,6 +13,27 @@ class BasePage(object):
 
     def __init__(self, driver):
         self.driver = driver
+        self.map_function = {
+            'input': 'self.sendKeys',
+            'button': 'self.click'
+        }
+
+    def perform_actions(self, *args):
+        """根据元素，动态执行操作"""
+        size = len(args)
+        print('size=', size)
+        i = 0
+        while(i<size):
+            func = self.map_function[args[i][0]]
+            print('func=', func)
+            if 'send' in func:
+                print('send')
+                i += 1
+                eval(func)(args[i-1][1], args[i])
+            elif 'click' in func:
+                print('click')
+                eval(func)(args[i][1])
+            i += 1
 
     def open(self, url):
         """ 打开链接，浏览器最大化 """
@@ -38,6 +59,7 @@ class BasePage(object):
 
     def sendKeys(self, locator, msg, is_clear=True):
         """ 对元素输入文本 """
+        print('1')
         element = self.find_element(locator)
         if is_clear == True:
             element.clear()

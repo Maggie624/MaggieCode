@@ -35,8 +35,6 @@ class Login(MyTestCase):
 
     def test_01_login_user_psw_null(self):
         '用户名、密码为空，登录'
-        print('========status=========')
-        print(_previou_case_result[0])
         if _previou_case_result[0] == 0:
             raise unittest.SkipTest('已经测试通过')
         self.logindriver.login('', '')
@@ -47,8 +45,6 @@ class Login(MyTestCase):
 
     def test_02_login_psw_null(self):
         '密码为空,登录'
-        print('========status=========')
-        print(_previou_case_result[0])
         if _previou_case_result[0] == 0:
             raise unittest.SkipTest('已经测试通过')
         self.logindriver.login('18000000000', '')
@@ -58,8 +54,6 @@ class Login(MyTestCase):
 
     def test_03_login_user_null(self):
         '用户名为空，登录'
-        print('========status=========')
-        print(_previou_case_result[0])
         if _previou_case_result[0] == 0:
             raise unittest.SkipTest('已经测试通过')
         self.logindriver.login('', 'qazwsxedcrfv180000')
